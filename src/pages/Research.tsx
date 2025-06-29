@@ -94,37 +94,40 @@ const Research: React.FC = () => {
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
                       Coping with intractability: Topics at the intersection of Parameterized Algorithms and Linear Optimization
-                    </a>
+                    </a> <br />
+                    Summary: This talk presented linear programming as a framework for designing parameterized algorithms and kernelization techniques to address intractable problems like vertex cover and talks about recent advancements. <br />
+                    Graduate Student Presentation for MATH 708. 
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 italic">
-                Monitoring edge-geodetic sets in graphs
+                Monitoring edge-geodetic sets in graphs <br />
                 <a 
                       href="https://faculty.sarkara.wwu.edu/2024(2)/ccf_Oct_2024.html" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
                     Cascadia Combinatorial Feast - October 2024
-                    </a>
-                Held at the University of Victoria, Victoria, BC, Canada.
+                    </a><br />
+                Held at the University of Victoria, Victoria, BC, Canada. 
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 italic">
-                Monitoring edge-geodetic sets in graphs
+                Monitoring edge-geodetic sets in graphs <br />
                 <a 
                       href="https://caldam2023.daiict.ac.in/acceptedpapers.php" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
                     9th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2023
-                    </a>
-                Held at the Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India.
+                    </a><br />
+                Held at the Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India. <br />
+                Springer Award for Best Student Presentation (One of four recipients)
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 italic">
-                Graph theoretical analysis of Buckminsterfullerene - Young Researchers' Forum 
-                6th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2020, Indian Institute of Technology, Hyderabad, India.
+                Graph theoretical analysis of Buckminsterfullerene - Young Researchers' Forum <br />
+                6th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2020, Indian Institute of Technology, Hyderabad, India.<br />
               </p>
             </div>
             
