@@ -14,7 +14,7 @@ const Navigation = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
     // Check if we're on the home page to make nav transparent
-    const isHomePage = location.pathname === '/';
+    const isHomePage = location.pathname === '/bio';
     return (_jsx("nav", { className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isHomePage
             ? (isScrolled
                 ? 'bg-white/95 backdrop-blur-md shadow-lg'
