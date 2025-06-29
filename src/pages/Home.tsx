@@ -6,7 +6,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-slate-50"> {/* Use Tailwind class for background */}
       {/* Background Image Section */}
       <div
-        className="absolute top-0 left-0 right-0 h-96 sm:h-[520px] bg-cover bg-center bg-no-repeat"
+        className="absolute top-0 left-0 right-0 h-[400px] sm:h-[520px] bg-cover bg-center bg-no-repeat" // Increased mobile height slightly
         style={{ backgroundImage: 'url(/bio/bg.jpg)' }}
       >
         {/* Stronger overlay */}
@@ -34,24 +34,37 @@ const Home: React.FC = () => {
                 </div>
               </div>
 
-              {/* Name and Title */}
-              <div className="flex-1 space-y-2 sm:space-y-4 pt-4 text-center sm:text-left"> {/* Center text on mobile */}
-                <h1 className="home-name font-light text-white tracking-tight leading-tight text-3xl sm:text-5xl lg:text-6xl" style={{ textShadow: '0 4px 8px rgba(0,0,0,0.3)' }}>
+              {/* Name and Title - Reverted font for name, adjusted positioning for mobile visibility */}
+              <div className="flex-1 space-y-2 sm:space-y-4 pt-4 text-center sm:text-left">
+                <h1 className="home-name text-white tracking-tight leading-tight text-3xl sm:text-5xl lg:text-6xl" style={{ 
+                    fontSize: '3rem', // Reverted to original inline style for primary name font size
+                    fontWeight: '200', // Reverted to original font weight
+                    textShadow: '0 4px 8px rgba(0,0,0,0.3)',
+                    lineHeight: '1.1' // Kept this for consistent spacing
+                }}>
                   Krishna Narayanan
                 </h1>
-                <p className="home-title font-light text-white/95 text-xl sm:text-2xl lg:text-3xl" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
+                <p className="home-title font-light text-white/95 text-xl sm:text-2xl lg:text-3xl" style={{ 
+                    fontSize: '1.5rem', // Reverted to original inline style for title font size
+                    fontWeight: '200', // Reverted to original font weight
+                    textShadow: '0 2px 4px rgba(0,0,0,0.3)'
+                }}>
                   Master's Student in Mathematics
                 </p>
-                <p className="home-location font-light text-white/90 text-base sm:text-lg lg:text-xl" style={{ textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>
+                <p className="home-location font-light text-white/90 text-base sm:text-lg lg:text-xl" style={{ 
+                    fontSize: '1.125rem', // Reverted to original inline style for location font size
+                    fontWeight: '200', // Reverted to original font weight
+                    textShadow: '0 2px 4px rgba(0,0,0,0.3)'
+                }}>
                   Simon Fraser University, Burnaby, BC, Canada
                 </p>
               </div>
             </div>
 
-            {/* Main Content Section - Below Photo with white background */}
-            <div className="fade-in space-y-6 bg-white/95 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl border border-white/50 -mt-20 sm:mt-0"> {/* Responsive padding, adjusted margin for overlap */}
+            {/* Main Content Section - Adjusted margin-top for mobile */}
+            <div className="fade-in space-y-6 bg-white/95 backdrop-blur-sm rounded-2xl p-6 sm:p-8 shadow-xl border border-white/50 -mt-[100px] sm:mt-0"> {/* Adjusted negative margin */}
               {/* Academic Introduction */}
-              <div className="prose-enhanced space-y-4 text-sm sm:text-base font-normal text-neutral-700"> {/* Responsive text size, adjusted font-weight */}
+              <div className="prose-enhanced space-y-4 text-sm sm:text-base font-normal text-neutral-700">
                 <p>
                   Welcome to my academic portfolio. I am currently pursuing a Master's degree in Mathematics 
                   at Simon Fraser University, Burnaby, BC, Canada under the supervision of 
@@ -74,7 +87,7 @@ const Home: React.FC = () => {
               </div>
 
               {/* Personal Philosophy & Interests */}
-              <div className="pt-4 sm:pt-6 border-t border-neutral-200 space-y-3"> {/* Responsive padding top, spacing */}
+              <div className="pt-4 sm:pt-6 border-t border-neutral-200 space-y-3">
                 <p className="text-neutral-700 text-sm sm:text-base font-normal">
                   I believe in keeping an open mind for good discussion and debate, as that's how I learn best. 
                   I have a variety of interests outside of academics; feel free to read more about them{' '}
@@ -98,8 +111,8 @@ const Home: React.FC = () => {
                   </a>.
                 </p>
                 
-                <p className="text-xs text-neutral-500 pt-1"> {/* Smaller text for date on mobile */}
-                  Last Updated: July 2025
+                <p className="text-xs text-neutral-500 pt-1">
+                  Last Updated: June 2025 {/* Updated year to current for accuracy */}
                 </p>
               </div>
             </div>
