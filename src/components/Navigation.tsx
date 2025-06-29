@@ -33,7 +33,7 @@ const Navigation: React.FC = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo/Brand */}
           <Link 
-            to="/Home" 
+            to="/bio" 
             className={`text-2xl transition-all duration-300 hover:scale-105 ${
               isHomePage && !isScrolled 
                 ? 'text-white hover:text-white/90 drop-shadow-lg' 
