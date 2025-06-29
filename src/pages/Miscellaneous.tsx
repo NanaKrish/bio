@@ -6,37 +6,39 @@ const Miscellaneous: React.FC = () => {
       <div className="content-wrapper">
         <h1 className="section-title">Beyond Academics</h1> {/* Changed page title */}
         
-        <div className="space-y-8">
+        <div className="space-y-10"> {/* Increased overall space between sections for more breathing room */}
+
           {/* My World Outside Studies */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">My World Outside Studies</h2>
             <div className="card group">
               <p className="text-neutral-700 mb-4">
-                While my academic pursuits in discrete optimization and polytope theory consume a significant
-                portion of my time, my interests span a much wider spectrum. I find immense joy in
-                exploring subjects that enrich my understanding of the world and challenge my perspectives.
+                While my academic pursuits in discrete optimization and polytope theory consume a significant portion of my time,
+                my interests span a much wider spectrum. I find immense joy in exploring subjects that enrich my understanding of the world
+                and challenge my perspectives.
               </p>
               <p className="text-neutral-700 mb-4">
                 My curiosity often leads me to delve into topics like **aviation and aerospace technology**,
-                the intricate dynamics of **international affairs and global politics**, and the fascinating evolution
-                of **military doctrines and history**. I also dedicate time to **environmental sciences and sustainability**,
-                recognizing the critical importance of these areas. Occasionally, I'll deep-dive into the nuances of
-                **global economics and market dynamics**, appreciating the interconnectedness of it all.
+                the intricate dynamics of **international affairs and global politics**, and the fascinating evolution of **military doctrines and history**.
+                I also dedicate time to **environmental sciences and sustainability**, recognizing the critical importance of these areas.
+                Occasionally, I'll deep-dive into the nuances of **global economics and market dynamics**, appreciating the interconnectedness of it all.
               </p>
+              
               <p className="text-neutral-700 mb-4">
                 For recreation, I enjoy the intellectual sparring of **rapid and blitz chess on chess.com**, though I must admit I'm no grandmaster.
-                I used to be quite the athlete, even a **competitive swimmer** in my younger days, but nowadays, my physical routine is less about competition and
-                more about maintaining **regular fitness and workout routines** – definitely no bodybuilder aspirations here! My interest in
-                **cricket**, while once strong, is also fading fast, but I can still appreciate a good match.
+                I used to be quite the athlete, even a **competitive swimmer** in my younger days, but nowadays, my physical routine is less about
+                competition and more about maintaining **regular fitness and workout routines** &mdash; definitely no bodybuilder aspirations here!
+                My interest in **cricket**, while once strong, is also fading fast, but I can still appreciate a good match.
               </p>
+              
               <p className="text-neutral-700">
-                Above all, I am a creature of habit. I value routines and find comfort in their predictability,
-                extending even to my food choices. This appreciation for repetitiveness helps anchor my day-to-day life.
+                Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
+                This appreciation for repetitiveness helps anchor my day-to-day life.
               </p>
             </div>
           </section>
 
-          {/* Entertainment & Wellness - Slightly re-arranged for logical grouping */}
+          {/* Entertainment & Wellness */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Leisure & Well-being</h2>
             <div className="grid md:grid-cols-2 gap-6">
@@ -63,10 +65,6 @@ const Miscellaneous: React.FC = () => {
                 <ul className="space-y-2 text-neutral-700">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Hiking and outdoor exploration
-                  </li>
-                  <li className="flex items-start">
-                    <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     Meditation and mindfulness practices
                   </li>
                 </ul>
@@ -74,7 +72,7 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
-          {/* Philosophy & Writing */}
+          {/* Philosophy & Expression */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Philosophy & Expression</h2>
             <div className="space-y-6">
@@ -84,13 +82,18 @@ const Miscellaneous: React.FC = () => {
                   Coming from a family that follows **Advaita Vedanta**, my life's goal is to align my actions
                   and understanding with its tenets. I have no qualms in admitting my imperfections, but I am
                   ever aware of this fundamental goal, which continually inspires me to grow and change.
+                </p>
+                
+                {/* Visual Break / Emphasis for this paragraph */}
+                <blockquote className="text-neutral-700 italic border-l-4 border-primary-400 pl-4 py-2 my-4">
                   While I haven't formally had a guru, my parents and extended family are my greatest role models
                   and my first gurus, whose wisdom continues to guide me.
-                </p>
+                </blockquote>
+
                 <p className="text-neutral-700">
                   Naturally, my ideological views lean unapologetically towards conservatism. However, this conviction
                   is always balanced by a deep respect for the **choice and will of individuals** above anything else.
-                  I believe in thoughtful discourse and the power of well-reasoned arguments to bridge different
+                  I believe in thoughtful discourse and and the power of well-reasoned arguments to bridge different
                   perspectives and foster understanding.
                 </p>
               </div>
@@ -119,16 +122,18 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
+          {/* Personal Philosophy - Integrated into Philosophy & Expression (Removed as separate section) */}
+
           {/* Contact Information */}
           <section>
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Contact Me</h2>
+            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Connect With Me</h2> {/* Slightly more active title */}
             <div className="card group">
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h3 className="text-lg font-semibold text-neutral-800 mb-3">Academic Inquiries</h3>
                   <div className="space-y-2 text-neutral-700">
                     <p>
-                      <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
+                      <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
                     </p>
                     <p>
                       <span className="font-medium">Institution:</span> Simon Fraser University
@@ -145,7 +150,7 @@ const Miscellaneous: React.FC = () => {
                   <h3 className="text-lg font-semibold text-neutral-800 mb-3">General & Personal Inquiries</h3>
                   <div className="space-y-2 text-neutral-700">
                     <p>
-                      <span className="font-medium">Email:</span> <a href="mailto:nkrishna0602@gmail.com" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nkrishna0602@gmail.com</a>
+                      <span className="font-medium">Email:</span> <a href="mailto:nkrishna0602@gmail.com" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-500 transition-colors duration-200">nkrishna0602@gmail.com</a>
                     </p>
                     <p className="mb-3">
                       Feel free to reach out for discussions about anything from shared intellectual interests
