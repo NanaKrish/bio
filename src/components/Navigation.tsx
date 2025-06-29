@@ -17,7 +17,7 @@ const Navigation: React.FC = () => {
   }, []);
 
   // Check if we're on the home page ('/bio')
-  const isHomePage = location.pathname === '/bio';
+  const isHomePage = location.pathname === '/bio/';
 
   // Determine the base classes for the navigation bar
   const navClasses = `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
