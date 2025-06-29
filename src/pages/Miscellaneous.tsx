@@ -2,88 +2,101 @@ import React from 'react';
 
 const Miscellaneous: React.FC = () => {
   return (
-    <div className="min-h-screen bg-slate-50 py-10"> {/* Kept existing outer styling */}
-      {/* Added pt-16 to push content down, assuming nav bar height is around 64px (16*4px) */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20"> 
-        <h1 className="section-title text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-12 text-center">Beyond Academics</h1> 
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-neutral-100 py-10"> {/* More dynamic background */}
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20"> {/* Adjusted pt for nav bar */}
+        <h1 className="section-title text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-12 text-center relative z-10">Beyond Academics</h1> 
         
-        <div className="space-y-12"> {/* Overall space between main sections */}
+        <div className="space-y-16"> {/* Increased overall space between sections for more breathing room */}
 
-          {/* Section 1: My World Outside Studies - Enhanced layout */}
-          <section className="bg-white rounded-xl shadow-lg p-6 sm:p-8 border border-neutral-200">
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">My World Outside Studies</h2>
+          {/* Section 1: My World Outside Studies - Enhanced with more varied sub-sections */}
+          <section className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 border border-neutral-200 relative"> {/* More pronounced shadow */}
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">My World Outside Studies</h2> {/* Stronger border */}
             
-            {/* Introductory Paragraph */}
-            <p className="text-neutral-700 leading-relaxed mb-6">
+            <p className="text-neutral-700 leading-relaxed text-lg mb-8"> {/* Slightly larger intro text */}
               While my academic pursuits in discrete optimization and polytope theory consume a significant portion of my time,
               my interests span a much wider spectrum. I find immense joy in exploring subjects that enrich my understanding
               of the world and challenge my perspectives.
             </p>
 
-            {/* Core Intellectual Interests - Blended narrative and subtle listing */}
-            <div className="bg-neutral-50 rounded-lg p-5 mb-6 border border-neutral-100"> {/* Subtle background for this sub-section */}
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4 border-b pb-2 border-neutral-200">Intellectual Passions</h3>
-                <p className="text-neutral-700 leading-relaxed mb-4">
-                My curiosity often leads me to delve into topics like Aviation. I'm a bit of an "av-geek" in general, having had the good fortune to travel a fair bit at such a young age.
-                This interest extends to International Affairs and global politics, as well as the fascinating evolution of Military Doctrines and History.
-                These passions were deeply cultivated over almost nine years of participating in Model UN debates, where I had a near-perfect award record during my college days.
-                These events were pivotal in shaping my understanding of complex global dynamics.
+            {/* Intellectual Passions - More structured with distinct blocks */}
+            <div className="grid md:grid-cols-2 gap-8 mb-10"> {/* Grid layout for passion categories */}
+              <div className="bg-primary-50 rounded-lg p-5 border border-primary-200 shadow-md"> {/* Distinct background/border */}
+                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Global & Historical Dynamics</h3>
+                <p className="text-neutral-700 leading-relaxed">
+                  My curiosity often leads me to delve into topics like Aviation — I'm a bit of an "av-geek" in general, having had the good fortune to travel a fair bit at such a young age.
+                  This interest extends to International Affairs and global politics, as well as the fascinating evolution of Military Doctrines and History.
                 </p>
-                <p className="text-neutral-700 leading-relaxed mb-4">
-                I also dedicate time to Environmental Sciences and sustainability, recognizing their critical importance.
-                Occasionally, I'll deep-dive into the nuances of global economics and market dynamics, appreciating their interconnectedness.
+                <p className="text-neutral-700 leading-relaxed mt-3">
+                  These passions were deeply cultivated over almost nine years of participating in Model UN debates, where I had a near-perfect award record during my college days. My debate style evolved considerably during this period, moving from rhetoric to arguments driven by facts and precedence. While powerful, this shift also meant I couldn't always be up to the task with such a demanding approach. These events were pivotal in shaping my understanding of complex global dynamics.
+                </p>
+              </div>
+
+              <div className="bg-amber-50 rounded-lg p-5 border border-amber-200 shadow-md"> {/* Different background/border */}
+                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Contemporary & Personal Interests</h3>
+                <p className="text-neutral-700 leading-relaxed mb-3">
+                  I also dedicate time to Environmental Sciences and sustainability, recognizing their critical importance.
+                  Occasionally, I'll deep-dive into the nuances of global economics and market dynamics, appreciating their interconnectedness.
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
-                My interest in reading doesn't always live up to my ambitious bucket list, but I genuinely try to make an effort where and when I can.
+                  My interest in reading doesn't always live up to my ambitious bucket list, but I genuinely try to make an effort where and when I can.
                 </p>
+              </div>
             </div>
-            
-            {/* Recreation & Personal Habits - More narrative */}
-            <div className="bg-neutral-50 rounded-lg p-5 border border-neutral-100"> {/* Subtle background for this sub-section */}
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4 border-b pb-2 border-neutral-200">Recreation & Personal Habits</h3>
+
+            {/* Recreation & Personal Habits - A more distinct, perhaps offset, block */}
+            <div className="bg-neutral-100 rounded-xl p-6 shadow-inner border border-neutral-200 md:ml-12"> {/* Offset and different style */}
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-4 pb-2 border-b border-neutral-300">Recreation & Personal Habits</h3>
                 <p className="text-neutral-700 leading-relaxed mb-4">
-                For recreation, I enjoy the intellectual sparring of rapid and blitz chess on chess.com,
-                though I must admit I'm no grandmaster; far from it! I used to be something of an athlete, even a competitive swimmer in my younger days,
-                but now, my physical routine is less about competition and more about maintaining regular fitness and workout routines &mdash; definitely no bodybuilder aspirations here!
-                My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
+                  For recreation, I enjoy the intellectual sparring of rapid and blitz chess on chess.com,
+                  though I must admit I'm no grandmaster; far from it! I used to be something of an athlete, even a competitive swimmer in my younger days,
+                  but now, my physical routine is less about competition and more about maintaining regular fitness and workout routines &mdash; definitely no bodybuilder aspirations here!
+                  My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
                 </p>
                 <p className="text-neutral-700 leading-relaxed mb-4">
-                I also love driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
+                  I also love driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
                 </p>
-                <p className="text-neutral-700 leading-relaxed">
-                Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
-                This appreciation for repetitiveness helps anchor my day-to-day life.
+                <p className="text-neutral-700 leading-relaxed text-sm italic text-neutral-600"> {/* Smaller, italicized for a 'thought' */}
+                  Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
+                  This appreciation for repetitiveness helps anchor my day-to-day life.
                 </p>
             </div>
           </section>
 
-          {/* Section 2: Leisure & Well-being - Simplified and focused */}
-          <section className="bg-white rounded-xl shadow-lg p-6 sm:p-8 border border-neutral-200">
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Leisure Activities</h2> {/* Renamed heading */}
-            {/* Removed Mind & Body Practices section entirely */}
-            <div>
-              <h3 className="text-lg font-semibold text-neutral-800 mb-3">Media & Entertainment</h3> {/* Renamed heading */}
-              <ul className="space-y-2 text-neutral-700 list-disc list-inside pl-4">
-                <li>
-                  Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
-                </li>
-                <li>
-                  Shounen anime and manga
-                </li>
-                <li>
-                  Documentary films on various topics
-                </li>
-              </ul>
+          {/* Section 2: Leisure Activities - Simplified and focused, perhaps a different overall presentation */}
+          <section className="bg-neutral-100 rounded-xl shadow-xl p-6 sm:p-8 border border-neutral-200"> {/* Different background/shadow */}
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Leisure Activities</h2> 
+            <div className="grid md:grid-cols-2 gap-8 items-start"> {/* Aligned items at start */}
+              <div>
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Media & Entertainment</h3>
+                <ul className="space-y-3 text-neutral-700 list-disc list-inside pl-4 text-lg"> {/* Slightly larger list items */}
+                  <li>
+                    Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
+                  </li>
+                  <li>
+                    Shounen anime and manga
+                  </li>
+                  <li>
+                    Documentary films on various topics
+                  </li>
+                </ul>
+              </div>
+              {/* Could add another "Leisure" category here if desired, e.g., "Hobbies" */}
+              <div className="md:border-l-2 md:border-primary-200 md:pl-8"> {/* Visual separator for content */}
+                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">A Quiet Pursuit</h3>
+                 <p className="text-neutral-700 leading-relaxed text-lg">
+                    While I don't engage in traditional "mind and body" practices, I find quiet moments of reflection and strategic thinking in activities like chess and other strategic board games. These provide a different kind of mental engagement.
+                 </p>
+              </div>
             </div>
           </section>
 
-          {/* Section 3: Philosophy & Expression */}
-          <section className="bg-white rounded-xl shadow-lg p-6 sm:p-8 border border-neutral-200">
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Philosophy & Expression</h2>
-            <div className="space-y-8">
+          {/* Section 3: Philosophy & Expression - More emphasis on the philosophical statement */}
+          <section className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 border border-neutral-200">
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Philosophy & Expression</h2>
+            <div className="space-y-10"> {/* Increased space here too */}
               
-              <div className="mb-6">
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">My Philosophical Stance</h3>
+              <div className="mb-6 border-l-4 border-amber-400 pl-5 py-2 bg-amber-50 rounded-r-lg shadow-sm"> {/* Stronger visual emphasis for this block */}
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-3">My Philosophical Stance</h3>
                 <p className="text-neutral-700 leading-relaxed mb-4">
                   Coming from a family that follows Advaita Vedanta, my life's goal is to align my actions
                   and understanding with its tenets. I have no qualms in admitting my imperfections and hypocrisies vis a vis my ideals, but I am
@@ -93,7 +106,6 @@ const Miscellaneous: React.FC = () => {
                   While I haven't formally had a guru, my parents and extended family are my greatest role models
                   and my first gurus, whose wisdom continues to guide me.
                 </p>
-
                 <p className="text-neutral-700 leading-relaxed">
                   Naturally, my ideological views lean unapologetically towards conservatism. However, this conviction
                   is always balanced by a deep respect for the choice and will of individuals above anything else. So, even if you're very dear to me, you're very <em>unlikely</em> to hear my unfiltered opinions.
@@ -103,11 +115,10 @@ const Miscellaneous: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Writing & Communication</h3>
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-4 pb-2 border-b border-neutral-300">Writing & Communication</h3>
                 <p className="text-neutral-700 leading-relaxed mb-4">
                   In the past, I had the good fortune to write from time to time on a wide variety of topics and
-                  engage with wonderful people. This period included developing my debate style, moving from rhetoric to arguments driven by facts and precedence, a shift that while powerful, meant I couldn't always be up to the task.
-                  You can find my contributions to PSG Tech's online student
+                  engage with wonderful people. You can find my contributions to PSG Tech's online student
                   magazine, <em>The Bridge</em>,{' '}
                   <a 
                     href="https://thebridge.psgtech.ac.in/author/nanakrish/" 
@@ -127,13 +138,13 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
-          {/* Section 4: Contact Me */}
-          <section className="bg-white rounded-xl shadow-lg p-6 sm:p-8 border border-neutral-200">
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Connect With Me</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+          {/* Section 4: Connect With Me - Maintained clear structure */}
+          <section className="bg-neutral-100 rounded-xl shadow-xl p-6 sm:p-8 border border-neutral-200">
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Connect With Me</h2>
+            <div className="grid md:grid-cols-2 gap-8"> {/* Increased gap */}
               <div>
-                <h3 className="text-lg font-semibold text-neutral-800 mb-3">Academic Inquiries</h3>
-                <div className="space-y-2 text-neutral-700">
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Academic Inquiries</h3>
+                <div className="space-y-3 text-neutral-700"> {/* Increased space */}
                   <p>
                     <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
                   </p>
@@ -149,12 +160,12 @@ const Miscellaneous: React.FC = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-semibold text-neutral-800 mb-3">General & Personal Inquiries</h3>
-                <div className="space-y-2 text-neutral-700">
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">General & Personal Inquiries</h3>
+                <div className="space-y-3 text-neutral-700"> {/* Increased space */}
                   <p>
                     <span className="font-medium">Email:</span> <a href="mailto:nkrishna0602@gmail.com" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nkrishna0602@gmail.com</a>
                   </p>
-                  <p className="mb-3 leading-relaxed">
+                  <p className="mb-4 leading-relaxed">
                     Feel free to reach out for discussions about anything from shared intellectual interests
                     to philosophical perspectives, or just to connect. I enjoy engaging with people
                     who share similar interests or offer different viewpoints.
