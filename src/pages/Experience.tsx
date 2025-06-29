@@ -78,7 +78,6 @@ const Experience: React.FC = () => {
         <div className="space-y-12">
           {/* Company Logos Section */}
           <section className="fade-in">
-            <h2 className="text-3xl font-semibold text-neutral-800 mb-8 text-center">Organizations I've Worked With</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center items-stretch"> {/* Changed items-center to items-stretch for uniform height */}
               {companyLogos.map((logo, index) => (
                 <div key={index} className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 w-full max-w-xs h-full">
