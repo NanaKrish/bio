@@ -13,13 +13,13 @@ const Experience: React.FC = () => {
             <div className="space-y-8">
               <div className="card group">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-                  <h3 className="text-2xl font-semibold text-neutral-800">Graduate Teaching Assistant</h3>
+                  <h3 className="text-2xl font-semibold text-neutral-800">Graduate Research & Teaching Assistant</h3>
                   <span className="text-primary-600 font-medium bg-primary-50 px-3 py-1 rounded-full">Fall 2023 - Present</span>
                 </div>
-                <p className="text-neutral-600 mb-4 font-medium">Department of Mathematics</p>
+                <p className="text-neutral-600 mb-4 font-medium">Department of Mathematics, SFU</p>
                 <p className="text-neutral-700 mb-6 text-lg leading-relaxed">
-                  Assisting with undergraduate mathematics courses, providing academic support to students, 
-                  and gaining valuable teaching experience in mathematical education.
+                  Research Assistant under the supervision of Prof. Tamon Stephen, with a focus on algorithmic questions in polytope theory. Assisting with undergraduate mathematics courses, providing academic support to students, 
+                  and gaining valuable teaching experience.
                 </p>
                 <div>
                   <h4 className="font-semibold text-neutral-800 mb-4 text-lg">Key Responsibilities:</h4>

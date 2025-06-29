@@ -22,7 +22,7 @@ const Education: React.FC = () => {
                   <p className="text-neutral-700">
                     <span className="font-medium">Supervisor:</span>{' '}
                     <a 
-                      href="#" 
+                      href="https://www.sfu.ca/~tstephen/" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
                       Prof. Tamon Stephen
@@ -50,7 +50,7 @@ const Education: React.FC = () => {
                     <p className="text-neutral-700 mb-2">
                       <span className="font-medium">Internal Supervisor:</span>{' '}
                       <a 
-                        href="#" 
+                        href="https://scholar.google.com/citations?user=Qs-0HKwAAAAJ&hl=en" 
                         className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                       >
                         Prof. Lekshmi R S
@@ -73,7 +73,7 @@ const Education: React.FC = () => {
                           <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <div>
                             <a 
-                              href="#" 
+                              href="https://perso.limos.fr/ffoucaud/"
                               className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                             >
                               Prof. Florent Foucaud
@@ -85,7 +85,7 @@ const Education: React.FC = () => {
                           <span className="w-2 h-2 bg-primary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <div>
                             <a 
-                              href="#" 
+                              href="https://www.imsc.res.in/~vraman/" 
                               className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                             >
                               Prof. Venkatesh Raman
@@ -104,7 +104,7 @@ const Education: React.FC = () => {
                           <span className="w-2 h-2 bg-secondary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <div>
                             <a 
-                              href="#" 
+                              href="https://www.mun.ca/math/our-people/faculty/danny-dyer/" 
                               className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                             >
                               Prof. Danny Dyer
@@ -116,7 +116,7 @@ const Education: React.FC = () => {
                           <span className="w-2 h-2 bg-secondary-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
                           <div>
                             <a 
-                              href="#" 
+                              href="https://aburges2.ext.unb.ca/" 
                               className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                             >
                               Prof. Andrea Burgess
