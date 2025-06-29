@@ -4,12 +4,12 @@ const Experience: React.FC = () => {
   // IMPORTANT: Replace these with your actual logo paths and captions!
   // Example: { src: '/images/logos/sfu_logo.png', alt: 'Simon Fraser University Logo', caption: 'Graduate Research & Teaching Assistant at SFU' },
   const companyLogos = [
-    { src: '/bio/SFU.png', alt: 'SFU Logo', caption: 'Graduate Research & Teaching Assistant, Simon Fraser University <br /> September 2023- Now' },
-    { src: '/bio/IMSC.png', alt: 'IMSC Logo', caption: 'Research Intern - The Institute of Mathematical Sciences, Chennai <br /> January 2023 - June 2023' },
-    { src: '/bio/MUN.png', alt: 'MUN Logo', caption: 'MITACS Globalink Research Intern - Memorial University of Newfoundland, NL, Canada<br /> June 2022 - August 2022' },
-    { src: '/bio/LIMOS.png', alt: 'LIMOS Logo', caption: 'Research Intern - LIMOS, Universite Clermont-Auvergne <br /> April 2021 - November 2021' },
-    { src: '/bio/mango.png', alt: 'mango Logo', caption: 'Curriculum Tech Intern - Mango Education <br /> May 2020 - October 2020' },
-    { src: '/bio/CDOt.png', alt: 'CDOt Logo', caption: 'Student Intern - Centre for Development of Telematics, Bangalore <br /> May 2019' },
+    { src: '/bio/SFU.png', alt: 'SFU Logo', caption: 'Graduate Research & Teaching Assistant, Simon Fraser University             September 2023- Now' },
+    { src: '/bio/IMSC.png', alt: 'IMSC Logo', caption: 'Research Intern - The Institute of Mathematical Sciences, Chennai       January 2023 - June 2023' },
+    { src: '/bio/MUN.jpg', alt: 'MUN Logo', caption: 'MITACS Globalink Research Intern - Memorial University of Newfoundland, NL, Canada                June 2022 - August 2022' },
+    { src: '/bio/LIMOS.png', alt: 'LIMOS Logo', caption: 'Research Intern - LIMOS, Universite Clermont-Auvergne                 April 2021 - November 2021' },
+    { src: '/bio/mango.png', alt: 'mango Logo', caption: 'Curriculum Tech Intern - Mango Education  May 2020 - October 2020' },
+    { src: '/bio/CDOt.png', alt: 'CDOt Logo', caption: 'Student Intern - Centre for Development of Telematics, Bangalore                May 2019' },
   ];
 
   return (
