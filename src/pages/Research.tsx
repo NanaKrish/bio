@@ -103,6 +103,7 @@ const Research: React.FC = () => {
                 Young Researchers' Forum - 6th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2020, Indian Institute of Technology, Hyderabad, India.<br />
               </p>
             </div>
+            <br />
             <h3 className="text-2xl font-semibold text-neutral-800 mb-6">Other contributions</h3>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">

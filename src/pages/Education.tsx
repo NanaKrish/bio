@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Education: React.FC = () => {
   return (
@@ -29,10 +29,30 @@ const Education: React.FC = () => {
                     </a>
                   </p>
                 </div>
-                <p className="text-neutral-700">
+                <p className="text-neutral-700 mb-6"> {/* Added mb-6 for spacing before new section */}
                   Focusing on discrete optimization and polytope theory, exploring algorithmic questions 
                   in polyhedral combinatorics and their computational complexity.
                 </p>
+
+                {/* NEW: Awards & Scholarships for M.Sc */}
+                <div className="border-t border-neutral-200 pt-6 mt-6"> {/* Added top border and padding */}
+                  <h4 className="text-lg font-semibold text-neutral-800 mb-4">Awards & Scholarships</h4>
+                  <ul className="list-disc list-inside text-neutral-700 space-y-2 pl-4">
+                    <li>
+                      <span className="font-medium">SFU Graduate Fellowship</span> - Summer 2025
+                    </li>
+                    <li>
+                      <span className="font-medium">Graduate Travel and Research Award </span> - Spring 2025
+                    </li>
+                    <li>
+                      <span className="font-medium">MITACS Globalink Graduate Fellowship </span> - 2024
+                    </li>
+                    <li>
+                      <span className="font-medium">Special Graduate Entrance Scholarship </span> - Fall 2023
+                    </li>
+                    {/* Add more awards here */}
+                  </ul>
+                </div>
               </div>
 
               {/* Previous Integrated Master's */}
@@ -44,7 +64,7 @@ const Education: React.FC = () => {
                 <p className="text-neutral-600 mb-3">PSG College of Technology, Coimbatore, India</p>
                 <p className="text-sm text-neutral-600 mb-4 italic">Graduated First Class with Distinction</p>
                 
-                <div className="space-y-6">
+                <div className="space-y-6 mb-6"> {/* Added mb-6 for spacing before new section */}
                   {/* Main Project */}
                   <div>
                     <p className="text-neutral-700 mb-2">
@@ -128,11 +148,23 @@ const Education: React.FC = () => {
                     </div>
                   </div>
                 </div>
+                {/* NEW: Awards & Scholarships for Integrated M.Sc */}
+                <div className="border-t border-neutral-200 pt-6 mt-6"> {/* Added top border and padding */}
+                  <h4 className="text-lg font-semibold text-neutral-800 mb-4">Awards & Scholarships</h4>
+                  <ul className="list-disc list-inside text-neutral-700 space-y-2 pl-4">
+                    <li>
+                      <span className="font-medium">Achievement Award - PSG Tech Alumni Association</span> - March 2023
+                    </li>
+                    <li>
+                      <span className="font-medium">MITACS Globalink Research Internship Award </span> - Cohort of 2022
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </section>
 
-          {/* Competitive Exams Section */}
+          {/* Competitive Exams Section (No changes here) */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Competitive Exams</h2>
             <div className="space-y-6">
@@ -156,7 +188,7 @@ const Education: React.FC = () => {
             </div>
           </section>
 
-          {/* Teaching Assistantship Section */}
+          {/* Teaching Assistantship Section (No changes here) */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Teaching Assistantship</h2>
             <div className="space-y-6">
