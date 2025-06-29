@@ -50,13 +50,6 @@ const Home: React.FC = () => {
                 }}>
                   Krishna Narayanan
                 </h1>
-                <p className="home-title text-white/95" style={{ 
-                    fontSize: '1.25rem', // Smaller on mobile
-                    fontWeight: '200', 
-                    textShadow: '0 2px 4px rgba(0,0,0,0.3)'
-                }}>
-                  Master's Student in Mathematics
-                </p>
                 <p className="home-location text-white/90" style={{ 
                     fontSize: '1rem', // Smaller on mobile
                     fontWeight: '200', 

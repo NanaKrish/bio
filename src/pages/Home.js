@@ -8,11 +8,7 @@ const Home = () => {
                                                         letterSpacing: '-0.025em',
                                                         textShadow: '0 4px 8px rgba(0,0,0,0.3)',
                                                         lineHeight: '1.1'
-                                                    }, children: "Krishna Narayanan" }), _jsx("p", { className: "home-title text-white/95", style: {
-                                                        fontSize: '1.25rem', // Smaller on mobile
-                                                        fontWeight: '200',
-                                                        textShadow: '0 2px 4px rgba(0,0,0,0.3)'
-                                                    }, children: "Master's Student in Mathematics" }), _jsx("p", { className: "home-location text-white/90", style: {
+                                                    }, children: "Krishna Narayanan" }), _jsx("p", { className: "home-location text-white/90", style: {
                                                         fontSize: '1rem', // Smaller on mobile
                                                         fontWeight: '200',
                                                         textShadow: '0 2px 4px rgba(0,0,0,0.3)'
