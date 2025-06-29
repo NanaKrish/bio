@@ -23,7 +23,7 @@ const Miscellaneous: React.FC = () => {
             <h3 className="text-xl font-semibold text-neutral-800 mb-4 border-b pb-2 border-neutral-200">Intellectual Passions</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-neutral-700 mb-6">
                 <p>
-                    <strong className="font-bold">Aviation & Aerospace:</strong> Delving into the mechanics and future of flight.
+                    <strong className="font-bold">Aviation </strong> Bit of a "av-geek" in general, having had the good fortune to travel at such a young age. 
                 </p>
                 <p>
                     <strong className="font-bold">International Affairs:</strong> Understanding global politics and geopolitical strategies.
@@ -42,11 +42,10 @@ const Miscellaneous: React.FC = () => {
             {/* Recreation & Personal Habits - More narrative */}
             <h3 className="text-xl font-semibold text-neutral-800 mb-4 border-b pb-2 border-neutral-200">Recreation & Personal Habits</h3>
             <p className="text-neutral-700 leading-relaxed mb-4">
-              For recreation, I enjoy the intellectual sparring of <strong className="font-bold">rapid and blitz chess on chess.com</strong>,
-              though I must admit I'm no grandmaster! I used to be quite the athlete, even a <strong className="font-bold">competitive swimmer</strong>
-              in my younger days, but nowadays, my physical routine is less about competition and more about maintaining
-              <strong className="font-bold"> regular fitness and workout routines</strong> &mdash; definitely no bodybuilder aspirations here!
-              My interest in <strong className="font-bold">cricket</strong>, while once strong, is also fading fast, but I can still appreciate a good match.
+              For recreation, I enjoy the intellectual sparring of rapid and blitz chess on chess.com,
+              though I must admit I'm no grandmaster; far from it! I used to be something of an athlete, even a competitive swimmer in my younger days but now, my physical routine is less about competition and more about maintaining
+              regular fitness and workout routines &mdash; definitely no bodybuilder aspirations here!
+              My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
             </p>
             <p className="text-neutral-700 leading-relaxed">
               Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
@@ -62,7 +61,7 @@ const Miscellaneous: React.FC = () => {
                 <h3 className="text-lg font-semibold text-neutral-800 mb-3">Media & Recreation</h3>
                 <ul className="space-y-2 text-neutral-700 list-disc list-inside pl-4"> {/* Added list styling */}
                   <li>
-                    Comedy shows and stand-up performances
+                    Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
                   </li>
                   <li>
                     Shounen anime and manga
@@ -76,9 +75,6 @@ const Miscellaneous: React.FC = () => {
               <div>
                 <h3 className="text-lg font-semibold text-neutral-800 mb-3">Mind & Body Practices</h3>
                 <ul className="space-y-2 text-neutral-700 list-disc list-inside pl-4"> {/* Added list styling */}
-                  <li>
-                    Meditation and mindfulness practices
-                  </li>
                   <li>
                     Chess and strategic board games (Re-added here from previous discussion, if that was desired as distinct from just "playing chess")
                   </li>
@@ -95,25 +91,21 @@ const Miscellaneous: React.FC = () => {
               <div className="mb-6"> {/* Card removed, using direct padding and styling for a more integrated feel */}
                 <h3 className="text-xl font-semibold text-neutral-800 mb-3">My Philosophical Stance</h3>
                 <p className="text-neutral-700 leading-relaxed mb-4">
-                  Coming from a family that follows <strong className="font-bold">Advaita Vedanta</strong>, my life's goal is to align my actions
-                  and understanding with its tenets. I have no qualms in admitting my imperfections, but I am
+                  Coming from a family that follows Advaita Vedanta, my life's goal is to align my actions
+                  and understanding with its tenets. I have no qualms in admitting my imperfections and hypocrises vis a vis my ideals, but I am
                   ever aware of this fundamental goal, which continually inspires me to grow and change.
                 </p>
-                
-                {/* Dedicated blockquote for emphasis */}
-                <blockquote className="text-neutral-700 italic border-l-4 border-primary-500 pl-5 py-3 my-6 rounded-r-lg bg-primary-50">
-                  <p className="mb-2">
+                <p className="mb-2">
                     While I haven't formally had a guru, my parents and extended family are my greatest role models
                     and my first gurus, whose wisdom continues to guide me.
                   </p>
-                  <footer className="text-sm text-neutral-600">— Krishna Narayanan</footer>
-                </blockquote>
+
 
                 <p className="text-neutral-700 leading-relaxed">
                   Naturally, my ideological views lean unapologetically towards conservatism. However, this conviction
-                  is always balanced by a deep respect for the <strong className="font-bold">choice and will of individuals</strong> above anything else.
+                  is always balanced by a deep respect for the choice and will of individuals above anything else. So, even if you're very dear to me, you're very <i> unlikely</i> to hear my unfiltered opinions.
                   I believe in thoughtful discourse and the power of well-reasoned arguments to bridge different
-                  perspectives and foster understanding.
+                  perspectives and foster understanding.   
                 </p>
               </div>
 
@@ -134,7 +126,7 @@ const Miscellaneous: React.FC = () => {
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
                   I consider myself rather indolent, thus reserving my very best for when I am backed into a corner,
-                  as a matter of saying. This approach, while perhaps unconventional, has often yielded my most focused
+                  as a matter of saying. This approach, while perhaps unconventional and self-damaging, has often yielded my most focused
                   and creative work.
                 </p>
               </div>
