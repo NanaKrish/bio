@@ -95,39 +95,58 @@ const Research: React.FC = () => {
                     >
                       Coping with intractability: Topics at the intersection of Parameterized Algorithms and Linear Optimization
                     </a> <br />
-                    Summary: This talk presented linear programming as a framework for designing parameterized algorithms and kernelization techniques to address intractable problems like vertex cover and talks about recent advancements. <br />
+                    <br />
+                    SFU Operations Research Seminar - December 2024 <br />
                     Graduate Student Presentation for MATH 708. 
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
-                Monitoring edge-geodetic sets in graphs <br />
+                Cascadia Combinatorial Feast - October 2024 <br />
                 <a 
                       href="https://faculty.sarkara.wwu.edu/2024(2)/ccf_Oct_2024.html" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
-                    Cascadia Combinatorial Feast - October 2024
+                    Monitoring edge-geodetic sets in graphs
                     </a><br />
+                <br />
                 Held at the University of Victoria, Victoria, BC, Canada. 
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
-                Monitoring edge-geodetic sets in graphs <br />
+                9th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2023 <br />
                 <a 
                       href="https://caldam2023.daiict.ac.in/acceptedpapers.php" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
                     >
-                    9th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2023
+                    Monitoring edge-geodetic sets in graphs
                     </a><br />
                 Held at the Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India. <br />
-                Springer Award for Best Student Presentation (One of four recipients)
+                <br />
+                <b>Springer Award for Best Student Presentation (One of four recipients)</b>
               </p>
             </div>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
-                Graph theoretical analysis of Buckminsterfullerene - Young Researchers' Forum <br />
-                6th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2020, Indian Institute of Technology, Hyderabad, India.<br />
+                Graph theoretical analysis of Buckminsterfullerene <br />
+                <br />
+                Young Researchers' Forum - 6th Annual International Conference on Algorithms and Discrete Applied Mathematics - February 2020, Indian Institute of Technology, Hyderabad, India.<br />
+              </p>
+            </div>
+            <h3 className="text-2xl font-semibold text-neutral-800 mb-6">Other contributions</h3>
+            <div className="card group">
+              <p className="text-neutral-600 whitespace-pre-line">
+                
+                <a 
+                      href="https://sites.google.com/view/eccc2022/abstracts" 
+                      className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
+                    >
+                    Deduction in graph products
+                    </a><br />
+                East Coast Combinatorics Conference (ECCC) - 2022, University of Prince Edward Island, Charlottetown.  <br />
+                <br />
+                <b>Presentation by Dr. Danny Dyer. I contributed to the findings</b>
               </p>
             </div>
             
