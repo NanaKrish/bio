@@ -59,7 +59,7 @@ const Research: React.FC = () => {
               <div>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://link.springer.com/chapter/10.1007/978-3-031-25211-2_19"><i>Monitoring edge-geodetic sets in graphs.</i></a> Proceedings of the 9th International Conference on Algorithms and Discrete Applied Mathematics (CALDAM 2023), Lecture Notes in Computer Science 13947:245-256, 2023
+                    Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://link.springer.com/chapter/10.1007/978-3-031-25211-2_19" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a> Proceedings of the 9th International Conference on Algorithms and Discrete Applied Mathematics (CALDAM 2023), Lecture Notes in Computer Science 13947:245-256, 2023
                   </p>
                 </div>
                 {/* You can add more placeholder items here if you have multiple distinct works */}
@@ -70,7 +70,7 @@ const Research: React.FC = () => {
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://arxiv.org/abs/2210.03774"><i>Monitoring edge-geodetic sets in graphs.</i></a>. Manuscript, 2023.
+                    Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://arxiv.org/abs/2210.03774" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a>. Manuscript, 2023.
                   </p>
                 </div>
                 {/* Add more submitted papers as needed */}
