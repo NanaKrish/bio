@@ -16,17 +16,22 @@ const Navigation: React.FC = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // Check if we're on the home page ('/bio')
+  const isHomePage = location.pathname === '/bio';
+
   // Determine the base classes for the navigation bar
   const navClasses = `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
     isScrolled 
-      ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200/50' 
-      : 'bg-transparent'
+      ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200/50' // Scrolled state for all pages
+      : isHomePage 
+        ? 'bg-transparent' // Transparent only on home page when not scrolled
+        : 'bg-white/50 backdrop-blur-sm shadow-sm border-b border-neutral-200' // Default slightly tinted for other pages
   }`;
 
   // Determine the text color classes for links inside the navigation bar
-  const linkTextColorClasses = isScrolled 
-    ? 'text-neutral-700 hover:text-primary-600' 
-    : 'text-white hover:text-white/90 drop-shadow-md';
+  const linkTextColorClasses = isScrolled || !isHomePage 
+    ? 'text-neutral-700 hover:text-primary-600' // Dark text when scrolled or on non-home pages
+    : 'text-white hover:text-white/90 drop-shadow-md'; // White text only on home page when not scrolled
 
   return (
     <nav className={navClasses}>
@@ -54,7 +59,7 @@ const Navigation: React.FC = () => {
                 <span>Academics</span>
                 <svg 
                   className={`w-4 h-4 transition-transform duration-300 ${isAcademicsOpen ? 'rotate-180' : ''}`}
-                  fill="currentColor" // Use currentColor to inherit text color
+                  fill="currentColor" 
                   viewBox="0 0 24 24"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -65,14 +70,14 @@ const Navigation: React.FC = () => {
                 <div className="absolute top-full left-0 mt-2 w-52 bg-white/95 backdrop-blur-md rounded-lg shadow-xl border border-neutral-200/50 py-2 animate-in slide-in-from-top-2 duration-200">
                   <Link
                     to="/education"
-                    className="dropdown-item text-neutral-700 hover:text-primary-600 block px-4 py-2 text-sm" // Explicitly set dropdown item text color
+                    className="dropdown-item text-neutral-700 hover:text-primary-600 block px-4 py-2 text-sm" 
                     onClick={() => setIsAcademicsOpen(false)}
                   >
                     Education/TAship
                   </Link>
                   <Link
                     to="/research"
-                    className="dropdown-item text-neutral-700 hover:text-primary-600 block px-4 py-2 text-sm" // Explicitly set dropdown item text color
+                    className="dropdown-item text-neutral-700 hover:text-primary-600 block px-4 py-2 text-sm" 
                     onClick={() => setIsAcademicsOpen(false)}
                   >
                     Research
