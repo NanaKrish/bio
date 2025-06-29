@@ -11,7 +11,7 @@ const Home: React.FC = () => {
         left: 0,
         right: 0,
         height: '520px', // Covers nav area + photo area
-        backgroundImage: 'url(/bg.jpg)',
+        backgroundImage: 'url(/bio/bg.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -40,7 +40,7 @@ const Home: React.FC = () => {
                 <div className="relative">
                   <div className="w-56 h-72 bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-xl overflow-hidden shadow-2xl">
                     <img
-                      src="/NK.png"
+                      src="/bio/NK.png"
                       alt="Krishna Narayanan"
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
                 <p className="text-neutral-700" style={{ fontSize: '15px', fontWeight: '400' }}>
                   Find a copy of my CV{' '}
                   <a 
-                    href="/NK_CV_full-2.pdf" 
+                    href="/bio/NK_CV_full-2.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
