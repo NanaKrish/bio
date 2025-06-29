@@ -21,7 +21,7 @@ const Navigation = () => {
                 : 'bg-transparent')
             : (isScrolled
                 ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200/50'
-                : 'bg-white/80 backdrop-blur-sm shadow-sm border-b border-neutral-200')}`, children: _jsx("div", { className: "max-w-6xl mx-auto px-6", children: _jsxs("div", { className: "flex items-center justify-between h-16", children: [_jsx(Link, { to: "/", className: `text-2xl transition-all duration-300 hover:scale-105 ${isHomePage && !isScrolled
+                : 'bg-white/80 backdrop-blur-sm shadow-sm border-b border-neutral-200')}`, children: _jsx("div", { className: "max-w-6xl mx-auto px-6", children: _jsxs("div", { className: "flex items-center justify-between h-16", children: [_jsx(Link, { to: "/bio", className: `text-2xl transition-all duration-300 hover:scale-105 ${isHomePage && !isScrolled
                             ? 'text-white hover:text-white/90 drop-shadow-lg'
                             : 'text-primary-600 hover:text-primary-700'}`, style: { fontWeight: '200' }, children: "KN" }), _jsxs("div", { className: "flex items-center space-x-8", children: [_jsxs("div", { className: "relative", children: [_jsxs("button", { onClick: () => setIsAcademicsOpen(!isAcademicsOpen), className: `nav-link flex items-center space-x-1 transition-all duration-300 ${isActive('/education') || isActive('/research') ? 'active' : ''} ${isHomePage && !isScrolled
                                             ? 'text-white hover:text-white/90 drop-shadow-md'
