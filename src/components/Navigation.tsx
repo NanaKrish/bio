@@ -24,7 +24,7 @@ const Navigation: React.FC = () => {
       isHomePage 
         ? (isScrolled 
             ? 'bg-white/95 backdrop-blur-md shadow-lg' 
-            : 'bg-transparent')
+            : 'bg-white/5') // More transparent than bg-transparent
         : (isScrolled 
             ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200/50' 
             : 'bg-white/80 backdrop-blur-sm shadow-sm border-b border-neutral-200')
