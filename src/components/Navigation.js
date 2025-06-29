@@ -17,8 +17,8 @@ const Navigation = () => {
     const isHomePage = location.pathname === '/bio';
     return (_jsx("nav", { className: `fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isHomePage
             ? (isScrolled
-                ? 'bg-white/95'
-                : 'bg-transparent backdrop-blur-md shadow-lg') // More transparent than bg-transparent
+                ? 'bg-white/75 backdrop-blur-md shadow-lg'
+                : 'bg-transparent') // More transparent than bg-transparent
             : (isScrolled
                 ? 'bg-white/95 backdrop-blur-md shadow-lg border-b border-neutral-200/50'
                 : 'bg-white/50 backdrop-blur-sm shadow-sm border-b border-neutral-200')}`, children: _jsx("div", { className: "max-w-6xl mx-auto px-6", children: _jsxs("div", { className: "flex items-center justify-between h-16", children: [_jsx(Link, { to: "/bio", className: `text-2xl transition-all duration-300 hover:scale-105 ${isHomePage && !isScrolled
