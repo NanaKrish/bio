@@ -143,7 +143,7 @@ const Research: React.FC = () => {
                 </a><br />
                 East Coast Combinatorics Conference (ECCC) - 2022, University of Prince Edward Island, Charlottetown.  <br />
                 <br />
-                <b>Presentation by Dr. Danny Dyer. I contributed to the findings</b>
+                <b>Presentation by Dr. Danny Dyer. I contributed to the findings presented.</b>
               </p>
             </div>
             
