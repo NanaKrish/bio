@@ -51,44 +51,13 @@ const Research: React.FC = () => {
             </div>
           </section>
 
-          {/* Current Projects */}
-          <section>
-            <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Current Projects</h2>
-            <div className="space-y-6">
-              <div className="card group">
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Master's Thesis Research</h3>
-                <p className="text-neutral-600 mb-3">In Progress</p>
-                <p className="text-neutral-700 mb-4">
-                  Investigating novel approaches to solving specific classes of combinatorial optimization 
-                  problems, with focus on developing theoretical insights and practical algorithms.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Optimization</span>
-                  <span className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Algorithm Design</span>
-                  <span className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Theoretical Analysis</span>
-                </div>
-              </div>
-
-              <div className="card group">
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Independent Study</h3>
-                <p className="text-neutral-600 mb-3">Ongoing</p>
-                <p className="text-neutral-700 mb-4">
-                  Exploring connections between discrete mathematics and optimization theory through 
-                  literature review and problem-solving exercises.
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Literature Review</span>
-                  <span className="px-2 py-1 bg-primary-100 text-primary-700 rounded text-sm">Problem Analysis</span>
-                </div>
-              </div>
-            </div>
-          </section>
-
+          
           {/* Academic Presentations */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Presentations & Conferences</h2>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
+                SFU Operations Research Seminar - December 2024 <br />
                 <a 
                       href="https://researchseminars.org/talk/SFUOR/49/" 
                       className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
@@ -96,7 +65,7 @@ const Research: React.FC = () => {
                       Coping with intractability: Topics at the intersection of Parameterized Algorithms and Linear Optimization
                     </a> <br />
                     <br />
-                    SFU Operations Research Seminar - December 2024 <br />
+                    
                     Graduate Student Presentation for MATH 708. 
               </p>
             </div>
