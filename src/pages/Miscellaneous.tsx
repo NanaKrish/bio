@@ -64,27 +64,27 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
-          {/* Section 2: Leisure Activities - Changed from black to light green background */}
-          <section className="bg-green-50 rounded-3xl shadow-2xl p-6 sm:p-10 border border-green-200"> {/* Changed bg-neutral-800 to bg-green-50, border-neutral-700 to border-green-200 */}
-            <h2 className="text-3xl font-bold text-green-800 mb-8 pb-3 border-b-2 border-green-500">Leisure Activities</h2> {/* Changed text-primary-300 to text-green-800, border-primary-500 to border-green-500 */}
-            <div className="grid md:grid-cols-2 gap-10 items-start"> {/* Larger gap */}
+          {/* Section 2: Hobbies & Interests - Changed from black to light green background and updated text colors */}
+          <section className="bg-green-50 rounded-3xl shadow-2xl p-6 sm:p-10 border border-green-200">
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-green-500">Other activities</h2> {/* Changed title and text color */}
+            <div className="grid md:grid-cols-2 gap-10 items-start">
               <div>
-                <h3 className="text-2xl font-semibold text-green-700 mb-4">Media & Entertainment</h3> {/* Changed text-primary-200 to text-green-700 */}
-                <ul className="space-y-4 text-neutral-700 list-disc list-inside pl-4 text-lg"> {/* Changed text-neutral-200 to text-neutral-700 */}
+                <h3 className="text-2xl font-semibold text-neutral-700 mb-4">Media & Entertainment</h3> {/* Changed text color */}
+                <ul className="space-y-4 text-neutral-700 list-disc list-inside pl-4 text-lg">
                   <li>
-                    Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
+                    Comedy sequences from just about any source, as long as it makes me laugh out loud (which isn't so hard, so bad jokes are welcome).
                   </li>
                   <li>
                     Shounen anime and manga
                   </li>
                   <li>
-                    Documentary films on various topics
+                    Interviews, podcasts and everything else
                   </li>
                 </ul>
               </div>
-              <div className="md:border-l-2 md:border-green-400 md:pl-10"> {/* Changed border-primary-400 to border-green-400 */}
-                 <h3 className="text-2xl font-semibold text-green-700 mb-4">A Quiet Pursuit</h3> {/* Changed text-primary-200 to text-green-700 */}
-                 <p className="text-neutral-700 leading-relaxed text-lg"> {/* Changed text-neutral-200 to text-neutral-700 */}
+              <div className="md:border-l-2 md:border-green-400 md:pl-10">
+                 <h3 className="text-2xl font-semibold text-neutral-700 mb-4">A Quiet Pursuit</h3> {/* Changed text color */}
+                 <p className="text-neutral-700 leading-relaxed text-lg">
                    Though I have failed in the past and continue to face constraints regularly, efforts to keep up with my नित्य कर्म - my daily duties encompasses any and all notions of mindfulness, meditation, breathing exercises etc. Therefore, that is my quiet pursuit.
                  </p>
               </div>
@@ -110,7 +110,7 @@ const Miscellaneous: React.FC = () => {
                 <p className="text-neutral-700 leading-relaxed">
                   Naturally, my ideological views lean unapologetically towards conservatism. However, this conviction
                   is always balanced by a deep respect for the choice and will of individuals above anything else. So, even if you're very dear to me, you're very <em>unlikely</em> to hear my unfiltered opinions.
-                  I believe in thoughtful discourse and the power of well-reasoned arguments to bridge different
+                  That said, I still believe in thoughtful discourse and the power of well-reasoned arguments to bridge different
                   perspectives and foster understanding.
                 </p>
               </div>
@@ -119,7 +119,7 @@ const Miscellaneous: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-neutral-800 mb-5 pb-3 border-b border-neutral-300">Writing & Communication</h3>
                 <p className="text-neutral-700 leading-relaxed mb-5">
                   In the past, I had the good fortune to write from time to time on a wide variety of topics and
-                  engage with wonderful people. You can find my contributions to PSG Tech's online student
+                  engage with some wonderful people. You can find my contributions to PSG Tech's online student
                   magazine, <em>The Bridge</em>,{' '}
                   <a
                     href="https://thebridge.psgtech.ac.in/author/nanakrish/"
