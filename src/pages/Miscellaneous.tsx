@@ -168,11 +168,11 @@ const Miscellaneous: React.FC = () => {
                   </p>
                   <p className="mb-4 leading-relaxed">
                     Feel free to reach out for discussions about anything from shared intellectual interests
-                    to philosophical perspectives, or just to connect. I enjoy engaging with people
-                    who share similar interests or offer different viewpoints.
+                    to philosophical perspectives, or just to connect. 
                   </p>
-                  <p className="text-sm text-neutral-600">
-                    I'm always open to meaningful conversations and learning from others' experiences.
+                  <p>
+                    <span className="font-medium">Social Media:</span> You can find me on various platforms, but I prefer to keep any activities minimal.
+                    If you know me personally, you probably already have my handles. In any case, it's not worth listing them here.
                   </p>
                 </div>
               </div>
