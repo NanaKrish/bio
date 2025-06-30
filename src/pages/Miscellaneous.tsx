@@ -85,7 +85,7 @@ const Miscellaneous: React.FC = () => {
               <div className="md:border-l-2 md:border-green-400 md:pl-10">
                  <h3 className="text-2xl font-semibold text-neutral-700 mb-4">A Quiet Pursuit</h3> {/* Changed text color */}
                  <p className="text-neutral-700 leading-relaxed text-lg">
-                   Though I have failed in the past and continue to face constraints regularly, efforts to keep up with my नित्य कर्म - my daily duties encompasses any and all notions of mindfulness, meditation, breathing exercises etc. Therefore, that is my quiet pursuit.
+                   Though I have failed in the past and continue to face constraints regularly, efforts to keep up with my नित्य कर्म - my daily duties encompasses any and all notions of mindfulness, meditation, breathing exercises etc. I am also a master procrastinator; I need to overcome this. Therefore, these are my quiet pursuits.
                  </p>
               </div>
             </div>
