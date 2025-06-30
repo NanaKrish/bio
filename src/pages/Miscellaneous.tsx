@@ -2,38 +2,40 @@ import React from 'react';
 
 const Miscellaneous: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-neutral-100 py-10"> {/* More dynamic background */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20"> {/* Adjusted pt for nav bar */}
-        <h1 className="section-title text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-12 text-center relative z-10">Beyond Academics</h1> 
-        <h2>A Proud <span className="text-neutral-900">भारतीय</span></h2> 
-        <div className="space-y-16"> {/* Increased overall space between sections for more breathing room */}
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-neutral-100 py-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-4 text-center relative z-10">Beyond Academics</h1> 
+        {/* Adjusted placement, size, and centering for Bharatiya */}
+        <h2 className="text-2xl sm:text-3xl text-neutral-700 font-semibold mb-12 text-center">A Proud <span className="text-neutral-900">भारतीय</span></h2> 
+        
+        <div className="space-y-20"> {/* Increased overall space between sections significantly */}
 
-          {/* Section 1: My World Outside Studies - Enhanced with more varied sub-sections */}
-          <section className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 border border-neutral-200 relative"> {/* More pronounced shadow */}
-            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">My World Outside Studies</h2> {/* Stronger border */}
+          {/* Section 1: My World Outside Studies - Most varied section with multiple distinct sub-blocks */}
+          <section className="bg-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-200"> {/* More rounded, more padding */}
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">My World Outside Studies</h2> 
             
-            <p className="text-neutral-700 leading-relaxed text-lg mb-8"> {/* Slightly larger intro text */}
+            <p className="text-neutral-700 leading-relaxed text-lg mb-10"> {/* Slightly larger intro text, more margin */}
               While my academic pursuits in discrete optimization and polytope theory consume a significant portion of my time,
               my interests span a much wider spectrum. I find immense joy in exploring subjects that enrich my understanding
               of the world and challenge my perspectives.
             </p>
 
-            {/* Intellectual Passions - More structured with distinct blocks */}
-            <div className="grid md:grid-cols-2 gap-8 mb-10"> {/* Grid layout for passion categories */}
-              <div className="bg-primary-50 rounded-lg p-5 border border-primary-200 shadow-md"> {/* Distinct background/border */}
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Global & Historical Dynamics</h3>
-                <p className="text-neutral-700 leading-relaxed">
+            {/* Intellectual Passions - Stronger visual separation with two-tone background */}
+            <div className="grid md:grid-cols-2 gap-8 mb-12"> {/* Larger gap, more margin */}
+              <div className="bg-primary-50 rounded-2xl p-6 border border-primary-200 shadow-lg"> {/* Stronger shadow, more rounded, more padding */}
+                <h3 className="text-2xl font-bold text-primary-800 mb-4">Global & Historical Dynamics</h3> {/* Stronger heading for sub-section */}
+                <p className="text-neutral-700 leading-relaxed mb-4">
                   My curiosity often leads me to delve into topics like Aviation — I'm a bit of an "av-geek" in general, having had the good fortune to travel a fair bit at such a young age.
                   This interest extends to International Affairs and global politics, as well as the fascinating evolution of Military Doctrines and History.
                 </p>
-                <p className="text-neutral-700 leading-relaxed mt-3">
+                <p className="text-neutral-700 leading-relaxed">
                   These passions were deeply cultivated over almost nine years of participating in Model UN debates, where I had a near-perfect award record during my college days. My debate style evolved considerably during this period, moving from rhetoric to arguments driven by facts and precedence. While powerful, this shift also meant I couldn't always be up to the task with such a demanding approach. These events were pivotal in shaping my understanding of complex global dynamics.
                 </p>
               </div>
 
-              <div className="bg-amber-50 rounded-lg p-5 border border-amber-200 shadow-md"> {/* Different background/border */}
-                <h3 className="text-xl font-semibold text-neutral-800 mb-3">Contemporary & Personal Interests</h3>
-                <p className="text-neutral-700 leading-relaxed mb-3">
+              <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200 shadow-lg"> {/* Different accent color, more rounded, more padding */}
+                <h3 className="text-2xl font-bold text-amber-800 mb-4">Contemporary & Personal Interests</h3> {/* Stronger heading for sub-section */}
+                <p className="text-neutral-700 leading-relaxed mb-4">
                   I also dedicate time to Environmental Sciences and sustainability, recognizing their critical importance.
                   Occasionally, I'll deep-dive into the nuances of global economics and market dynamics, appreciating their interconnectedness.
                 </p>
@@ -43,32 +45,32 @@ const Miscellaneous: React.FC = () => {
               </div>
             </div>
 
-            {/* Recreation & Personal Habits - A more distinct, perhaps offset, block */}
-            <div className="bg-neutral-100 rounded-xl p-6 shadow-inner border border-neutral-200 md:ml-12"> {/* Offset and different style */}
-                <h3 className="text-2xl font-semibold text-neutral-800 mb-4 pb-2 border-b border-neutral-300">Recreation & Personal Habits</h3>
-                <p className="text-neutral-700 leading-relaxed mb-4">
+            {/* Recreation & Personal Habits - Distinct, large, potentially offset block */}
+            <div className="bg-neutral-100 rounded-3xl p-8 shadow-inner border border-neutral-300 md:ml-16"> {/* More padding, more rounded, larger offset */}
+                <h3 className="text-2xl font-bold text-neutral-800 mb-5 pb-3 border-b border-neutral-300">Recreation & Personal Habits</h3>
+                <p className="text-neutral-700 leading-relaxed mb-5">
                   For recreation, I enjoy the intellectual sparring of rapid and blitz chess on chess.com,
                   though I must admit I'm no grandmaster; far from it! I used to be something of an athlete, even a competitive swimmer in my younger days,
                   but now, my physical routine is less about competition and more about maintaining regular fitness and workout routines &mdash; definitely no bodybuilder aspirations here!
                   My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
                 </p>
-                <p className="text-neutral-700 leading-relaxed mb-4">
+                <p className="text-neutral-700 leading-relaxed mb-5">
                   I also love driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
                 </p>
-                <p className="text-neutral-700 leading-relaxed text-sm italic text-neutral-600"> {/* Smaller, italicized for a 'thought' */}
+                <p className="text-neutral-700 leading-relaxed text-base italic text-neutral-600 border-t pt-4 mt-6 border-neutral-200"> {/* Subtle top border, more padding */}
                   Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
                   This appreciation for repetitiveness helps anchor my day-to-day life.
                 </p>
             </div>
           </section>
 
-          {/* Section 2: Leisure Activities - Simplified and focused, perhaps a different overall presentation */}
-          <section className="bg-neutral-100 rounded-xl shadow-xl p-6 sm:p-8 border border-neutral-200"> {/* Different background/shadow */}
-            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Leisure Activities</h2> 
-            <div className="grid md:grid-cols-2 gap-8 items-start"> {/* Aligned items at start */}
+          {/* Section 2: Leisure Activities - New, darker background for strong contrast */}
+          <section className="bg-neutral-800 text-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-700"> {/* Dark background, contrasting text */}
+            <h2 className="text-3xl font-bold text-primary-300 mb-8 pb-3 border-b-2 border-primary-500">Leisure Activities</h2> 
+            <div className="grid md:grid-cols-2 gap-10 items-start"> {/* Larger gap */}
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Media & Entertainment</h3>
-                <ul className="space-y-3 text-neutral-700 list-disc list-inside pl-4 text-lg"> {/* Slightly larger list items */}
+                <h3 className="text-2xl font-semibold text-primary-200 mb-4">Media & Entertainment</h3>
+                <ul className="space-y-4 text-neutral-200 list-disc list-inside pl-4 text-lg"> {/* Larger text, more space, lighter color */}
                   <li>
                     Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
                   </li>
@@ -80,29 +82,28 @@ const Miscellaneous: React.FC = () => {
                   </li>
                 </ul>
               </div>
-              {/* Could add another "Leisure" category here if desired, e.g., "Hobbies" */}
-              <div className="md:border-l-2 md:border-primary-200 md:pl-8"> {/* Visual separator for content */}
-                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">A Quiet Pursuit</h3>
-                 <p className="text-neutral-700 leading-relaxed text-lg">
-                    While I don't engage in traditional "mind and body" practices, I find quiet moments of reflection and strategic thinking in activities like chess and other strategic board games. These provide a different kind of mental engagement.
+              <div className="md:border-l-2 md:border-primary-400 md:pl-10"> {/* Thicker, colored separator, more padding */}
+                 <h3 className="text-2xl font-semibold text-primary-200 mb-4">A Quiet Pursuit</h3>
+                 <p className="text-neutral-200 leading-relaxed text-lg">
+                   I find quiet moments of reflection and strategic thinking in activities like chess and other strategic board games. These provide a different kind of mental engagement.
                  </p>
               </div>
             </div>
           </section>
 
-          {/* Section 3: Philosophy & Expression - More emphasis on the philosophical statement */}
-          <section className="bg-white rounded-xl shadow-2xl p-6 sm:p-8 border border-neutral-200">
+          {/* Section 3: Philosophy & Expression - Different background color again */}
+          <section className="bg-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-200">
             <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Philosophy & Expression</h2>
-            <div className="space-y-10"> {/* Increased space here too */}
+            <div className="space-y-12"> {/* Increased space */}
               
-              <div className="mb-6 border-l-4 border-amber-400 pl-5 py-2 bg-amber-50 rounded-r-lg shadow-sm"> {/* Stronger visual emphasis for this block */}
-                <h3 className="text-2xl font-semibold text-neutral-800 mb-3">My Philosophical Stance</h3>
-                <p className="text-neutral-700 leading-relaxed mb-4">
+              <div className="border-l-4 border-amber-500 pl-6 py-3 bg-amber-50 rounded-r-2xl shadow-md"> {/* Stronger emphasis, more padding, more rounded */}
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-4">My Philosophical Stance</h3>
+                <p className="text-neutral-700 leading-relaxed mb-5">
                   Coming from a family that follows Advaita Vedanta, my life's goal is to align my actions
                   and understanding with its tenets. I have no qualms in admitting my imperfections and hypocrisies vis a vis my ideals, but I am
                   ever aware of this fundamental goal, which continually inspires me to grow and change.
                 </p>
-                <p className="text-neutral-700 leading-relaxed mb-4">
+                <p className="text-neutral-700 leading-relaxed mb-5">
                   While I haven't formally had a guru, my parents and extended family are my greatest role models
                   and my first gurus, whose wisdom continues to guide me.
                 </p>
@@ -115,8 +116,8 @@ const Miscellaneous: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="text-2xl font-semibold text-neutral-800 mb-4 pb-2 border-b border-neutral-300">Writing & Communication</h3>
-                <p className="text-neutral-700 leading-relaxed mb-4">
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-5 pb-3 border-b border-neutral-300">Writing & Communication</h3>
+                <p className="text-neutral-700 leading-relaxed mb-5">
                   In the past, I had the good fortune to write from time to time on a wide variety of topics and
                   engage with wonderful people. You can find my contributions to PSG Tech's online student
                   magazine, <em>The Bridge</em>,{' '}
@@ -138,13 +139,13 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
-          {/* Section 4: Connect With Me - Maintained clear structure */}
-          <section className="bg-neutral-100 rounded-xl shadow-xl p-6 sm:p-8 border border-neutral-200">
-            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Connect With Me</h2>
-            <div className="grid md:grid-cols-2 gap-8"> {/* Increased gap */}
+          {/* Section 4: Connect With Me - Another distinct background */}
+          <section className="bg-primary-50 rounded-3xl shadow-2xl p-6 sm:p-10 border border-primary-200"> {/* New accent background */}
+            <h2 className="text-3xl font-bold text-primary-800 mb-8 pb-3 border-b-2 border-primary-500">Connect With Me</h2>
+            <div className="grid md:grid-cols-2 gap-10"> {/* Increased gap */}
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Academic Inquiries</h3>
-                <div className="space-y-3 text-neutral-700"> {/* Increased space */}
+                <h3 className="text-2xl font-semibold text-primary-700 mb-4">Academic Inquiries</h3>
+                <div className="space-y-4 text-neutral-700"> {/* Increased space */}
                   <p>
                     <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
                   </p>
@@ -160,8 +161,8 @@ const Miscellaneous: React.FC = () => {
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">General & Personal Inquiries</h3>
-                <div className="space-y-3 text-neutral-700"> {/* Increased space */}
+                <h3 className="text-2xl font-semibold text-primary-700 mb-4">General & Personal Inquiries</h3>
+                <div className="space-y-4 text-neutral-700"> {/* Increased space */}
                   <p>
                     <span className="font-medium">Email:</span> <a href="mailto:nkrishna0602@gmail.com" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nkrishna0602@gmail.com</a>
                   </p>
