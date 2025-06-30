@@ -4,16 +4,16 @@ const Miscellaneous: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-neutral-100 py-10">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-4 text-center relative z-10">Beyond Academics</h1> 
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-4 text-center relative z-10">Beyond Academics</h1>
         {/* Adjusted placement, size, and centering for Bharatiya */}
-        <h2 className="text-2xl sm:text-3xl text-neutral-700 font-semibold mb-12 text-center">A Proud <span className="text-neutral-900">भारतीय</span></h2> 
-        
+        <h2 className="text-2xl sm:text-3xl text-neutral-700 font-semibold mb-12 text-center">A Proud <span className="text-neutral-900">भारतीय</span></h2>
+
         <div className="space-y-20"> {/* Increased overall space between sections significantly */}
 
           {/* Section 1: My World Outside Studies - Most varied section with multiple distinct sub-blocks */}
           <section className="bg-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-200"> {/* More rounded, more padding */}
-            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">My World Outside Studies</h2> 
-            
+            <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">My World Outside Studies</h2>
+
             <p className="text-neutral-700 leading-relaxed text-lg mb-10"> {/* Slightly larger intro text, more margin */}
               While my academic pursuits in discrete optimization and polytope theory consume a significant portion of my time,
               my interests span a much wider spectrum. I find immense joy in exploring subjects that enrich my understanding
@@ -64,13 +64,13 @@ const Miscellaneous: React.FC = () => {
             </div>
           </section>
 
-          {/* Section 2: Leisure Activities - New, darker background for strong contrast */}
-          <section className="bg-neutral-800 text-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-700"> {/* Dark background, contrasting text */}
-            <h2 className="text-3xl font-bold text-primary-300 mb-8 pb-3 border-b-2 border-primary-500">Leisure Activities</h2> 
+          {/* Section 2: Leisure Activities - Changed from black to light green background */}
+          <section className="bg-green-50 rounded-3xl shadow-2xl p-6 sm:p-10 border border-green-200"> {/* Changed bg-neutral-800 to bg-green-50, border-neutral-700 to border-green-200 */}
+            <h2 className="text-3xl font-bold text-green-800 mb-8 pb-3 border-b-2 border-green-500">Leisure Activities</h2> {/* Changed text-primary-300 to text-green-800, border-primary-500 to border-green-500 */}
             <div className="grid md:grid-cols-2 gap-10 items-start"> {/* Larger gap */}
               <div>
-                <h3 className="text-2xl font-semibold text-primary-200 mb-4">Media & Entertainment</h3>
-                <ul className="space-y-4 text-neutral-200 list-disc list-inside pl-4 text-lg"> {/* Larger text, more space, lighter color */}
+                <h3 className="text-2xl font-semibold text-green-700 mb-4">Media & Entertainment</h3> {/* Changed text-primary-200 to text-green-700 */}
+                <ul className="space-y-4 text-neutral-700 list-disc list-inside pl-4 text-lg"> {/* Changed text-neutral-200 to text-neutral-700 */}
                   <li>
                     Comedy sequences from just about any source, especially those that make me laugh out loud (which isn't so hard, so bad jokes are welcome).
                   </li>
@@ -82,10 +82,10 @@ const Miscellaneous: React.FC = () => {
                   </li>
                 </ul>
               </div>
-              <div className="md:border-l-2 md:border-primary-400 md:pl-10"> {/* Thicker, colored separator, more padding */}
-                 <h3 className="text-2xl font-semibold text-primary-200 mb-4">A Quiet Pursuit</h3>
-                 <p className="text-neutral-200 leading-relaxed text-lg">
-                   I find quiet moments of reflection and strategic thinking in activities like chess and other strategic board games. These provide a different kind of mental engagement.
+              <div className="md:border-l-2 md:border-green-400 md:pl-10"> {/* Changed border-primary-400 to border-green-400 */}
+                 <h3 className="text-2xl font-semibold text-green-700 mb-4">A Quiet Pursuit</h3> {/* Changed text-primary-200 to text-green-700 */}
+                 <p className="text-neutral-700 leading-relaxed text-lg"> {/* Changed text-neutral-200 to text-neutral-700 */}
+                   Though I have failed in the past and continue to face constraints regularly, efforts to keep up with my नित्य कर्म - my daily duties encompasses any and all notions of mindfulness, meditation, breathing exercises etc. Therefore, that is my quiet pursuit.
                  </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Miscellaneous: React.FC = () => {
           <section className="bg-white rounded-3xl shadow-2xl p-6 sm:p-10 border border-neutral-200">
             <h2 className="text-3xl font-bold text-neutral-800 mb-8 pb-3 border-b-2 border-primary-300">Philosophy & Expression</h2>
             <div className="space-y-12"> {/* Increased space */}
-              
+
               <div className="border-l-4 border-amber-500 pl-6 py-3 bg-amber-50 rounded-r-2xl shadow-md"> {/* Stronger emphasis, more padding, more rounded */}
                 <h3 className="text-2xl font-semibold text-neutral-800 mb-4">My Philosophical Stance</h3>
                 <p className="text-neutral-700 leading-relaxed mb-5">
@@ -121,8 +121,8 @@ const Miscellaneous: React.FC = () => {
                   In the past, I had the good fortune to write from time to time on a wide variety of topics and
                   engage with wonderful people. You can find my contributions to PSG Tech's online student
                   magazine, <em>The Bridge</em>,{' '}
-                  <a 
-                    href="https://thebridge.psgtech.ac.in/author/nanakrish/" 
+                  <a
+                    href="https://thebridge.psgtech.ac.in/author/nanakrish/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
