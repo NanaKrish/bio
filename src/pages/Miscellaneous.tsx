@@ -5,7 +5,7 @@ const Miscellaneous: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-neutral-100 py-10"> {/* More dynamic background */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-20"> {/* Adjusted pt for nav bar */}
         <h1 className="section-title text-4xl sm:text-5xl font-extrabold text-neutral-800 mb-12 text-center relative z-10">Beyond Academics</h1> 
-        
+        <h2>A Proud <span className="text-neutral-900">भारतीय</span></h2> 
         <div className="space-y-16"> {/* Increased overall space between sections for more breathing room */}
 
           {/* Section 1: My World Outside Studies - Enhanced with more varied sub-sections */}
