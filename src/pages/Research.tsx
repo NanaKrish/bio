@@ -70,7 +70,7 @@ const Research: React.FC = () => {
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://arxiv.org/abs/2210.03774" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a>. Manuscript, 2023.
+                    Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://arxiv.org/abs/2210.03774" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a>. Manuscript, 2023 <i>To appear in Discrete Applied Mathematics</i>.
                   </p>
                 </div>
                 {/* Add more submitted papers as needed */}
