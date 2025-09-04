@@ -63,8 +63,12 @@ const Research: React.FC = () => {
                   </p>
                 </div>
                 {/* You can add more placeholder items here if you have multiple distinct works */}
-                <p>Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://doi.org/10.1016/j.dam.2025.08.041" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a> <i>Discrete Applied Mathematics</i> 377:598-610, 2025. <i>Special issue for CALDAM 2023. </i>.</p>
                 
+                <div className="card group">
+                  <p className="text-neutral-700">
+                    Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://doi.org/10.1016/j.dam.2025.08.041" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a> <i>Discrete Applied Mathematics</i> 377:598-610, 2025. <i>Special issue for CALDAM 2023. </i>.
+                  </p>
+                </div>
               </div>
 
               {/* Submitted Sub-section */}
