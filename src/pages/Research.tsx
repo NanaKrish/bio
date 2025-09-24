@@ -90,6 +90,20 @@ const Research: React.FC = () => {
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Presentations & Conferences</h2>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
+                West Coast Optimization Meeting - October 2025 <br />
+                <a 
+                  href="https://ocana.ok.ubc.ca/wcom25/abstracts.php" 
+                  className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
+                >
+                  Towards the computational complexity of monotone diameters of polytopes
+                </a> <br />
+                  <br />
+                  
+                University of British Columbia, Okanagan Campus, Kelowna, BC. 
+              </p>
+            </div>
+            <div className="card group">
+              <p className="text-neutral-600 whitespace-pre-line">
                 SFU Operations Research Seminar - December 2024 <br />
                 <a 
                   href="https://researchseminars.org/talk/SFUOR/49/" 
