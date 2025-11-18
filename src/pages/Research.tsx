@@ -76,7 +76,7 @@ const Research: React.FC = () => {
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    <b>Krishna Narayanan</b> and Tamon Stephen <i>The hardness of monotone eccentricity on polytopes</i> <i>To appear in the proceedings of CALDAM 2026</i>.
+                    <b>Krishna Narayanan</b> and Tamon Stephen <i>The hardness of monotone eccentricity on polytopes</i> -- <i>To appear in the proceedings of CALDAM 2026</i>.
                   </p>
                 </div>
                 {/* Add more submitted papers as needed */}
