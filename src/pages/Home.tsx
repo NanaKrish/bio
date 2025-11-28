@@ -66,7 +66,7 @@ const Home: React.FC = () => {
               {/* Academic Introduction */}
               <div className="prose-enhanced space-y-4 text-sm sm:text-base font-normal text-neutral-700">
                 <p>
-                  Welcome to my academic portfolio. I am currently pursuing a Master's degree in Mathematics 
+                  Welcome to my academic portfolio. I have defended my master's thesis in Mathematics 
                   at Simon Fraser University, Burnaby, BC, Canada under the supervision of 
                   Prof. Tamon Stephen, with a focus on Discrete Optimization. 
                   My current work explores algorithmic questions in polytope theory.
