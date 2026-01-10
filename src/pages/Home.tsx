@@ -66,10 +66,10 @@ const Home: React.FC = () => {
               {/* Academic Introduction */}
               <div className="prose-enhanced space-y-4 text-sm sm:text-base font-normal text-neutral-700">
                 <p>
-                  Welcome to my academic portfolio. I have defended my master's thesis in Mathematics 
+                  Welcome to my academic portfolio. I recently defended my master's thesis in Mathematics 
                   at Simon Fraser University, Burnaby, BC, Canada under the supervision of 
                   Prof. Tamon Stephen, with a focus on Discrete Optimization. 
-                  My current work explores algorithmic questions in polytope theory.
+                  My current work explores algorithmic questions in polytope theory and their computational complexity. 
                 </p>
                 
                 <p>
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
                 <p className="text-neutral-700 text-sm sm:text-base font-normal">
                   Find a copy of my CV{' '}
                   <a 
-                    href="/bio/NK_CV_full-18.pdf" 
+                    href="/bio/NK_CV_full-29-1.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
