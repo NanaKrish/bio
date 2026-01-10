@@ -112,7 +112,7 @@ const Home: React.FC = () => {
                 </p>
                 
                 <p className="text-xs text-neutral-500 pt-1">
-                  Last Updated: November 2025
+                  Last Updated: January 2026
                 </p>
               </div>
             </div>
