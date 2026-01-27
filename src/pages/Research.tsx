@@ -164,7 +164,7 @@ const Research: React.FC = () => {
                 </a><br />
                 Held at the Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India. <br />
                 <br />
-                <b>Springer Award for Best Student Presentation (One of four recipients)</b>
+                <b>Springer Award for Best Student Presentation (One of five recipients)</b>
               </p>
             </div>
             <div className="card group">
