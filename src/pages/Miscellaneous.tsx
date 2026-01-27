@@ -99,9 +99,8 @@ const Miscellaneous: React.FC = () => {
               <div className="border-l-4 border-amber-500 pl-6 py-3 bg-amber-50 rounded-r-2xl shadow-md"> {/* Stronger emphasis, more padding, more rounded */}
                 <h3 className="text-2xl font-semibold text-neutral-800 mb-4">My Philosophical Stance</h3>
                 <p className="text-neutral-700 leading-relaxed mb-5">
-                  Coming from a family that follows Advaita Vedanta, my life's goal is to align my actions
-                  and understanding with its tenets. I have no qualms in admitting my imperfections and hypocrisies vis a vis my ideals, but I am
-                  ever aware of this fundamental goal, which continually inspires me to grow and change.
+                 I have no qualms in admitting my imperfections and hypocrisies vis a vis my ideals, but I am
+                  ever aware of my fundamental goald, which continually inspires me to grow and change.
                 </p>
                 <p className="text-neutral-700 leading-relaxed mb-5">
                   While I haven't formally had a guru, my parents and extended family are my greatest role models
@@ -150,13 +149,7 @@ const Miscellaneous: React.FC = () => {
                     <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
                   </p>
                   <p>
-                    <span className="font-medium">Institution:</span> Simon Fraser University
-                  </p>
-                  <p>
-                    <span className="font-medium">Department:</span> Mathematics
-                  </p>
-                  <p>
-                    <span className="font-medium">Location:</span> Burnaby, BC, Canada
+                    <span className="font-medium">Institution:</span> No affiliation (as on 26th January 2026)
                   </p>
                 </div>
               </div>
@@ -172,7 +165,7 @@ const Miscellaneous: React.FC = () => {
                   </p>
                   <p>
                     <span className="font-medium">Social Media:</span> You can find me on various platforms, but I prefer to keep any activities minimal.
-                    If you know me personally, you probably already have my handles. In any case, it's not worth listing them here.
+                    If you know me personally, you probably know how to find me on the internet. In any case, it's not worth listing them here.
                   </p>
                 </div>
               </div>
