@@ -73,7 +73,7 @@ const Research: React.FC = () => {
 
               {/* Submitted Sub-section */}
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Accepted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
                     <b>Krishna Narayanan</b> and Tamon Stephen <i>--The hardness of monotone eccentricity on polytopes</i> -- <i>To appear in the proceedings of CALDAM 2026</i>.
@@ -81,6 +81,16 @@ const Research: React.FC = () => {
                 </div>
                 {/* Add more submitted papers as needed */}
               </div>
+              <div>
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">In Progress</h3>
+                <div className="card group">
+                  <p className="text-neutral-700">
+                    <b>Krishna Narayanan</b> and Tamon Stephen <i>--A note on Frieze-Teng's Exact Partition Polytope</i>.
+                  </p>
+                </div>
+                {/* Add more submitted papers as needed */}
+              </div>
+            
 
             </div>
           </section>
@@ -88,6 +98,20 @@ const Research: React.FC = () => {
           {/* Academic Presentations */}
           <section>
             <h2 className="text-2xl font-semibold text-neutral-800 mb-6">Presentations & Conferences</h2>
+            <div className="card group">
+              <p className="text-neutral-600 whitespace-pre-line">
+                The 12th Annual International Conference on Algorithms and Discrete Applied Mathematics (CALDAM) - February 2026 <br />
+                <a 
+                  href="https://caldam2026.iitdh.ac.in/accepted-papers" 
+                  className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
+                >
+                  The hardness of monotone eccentricity on polytopes 
+                </a> <br />
+                  <br />
+                  
+                Indian Institute of Technology, Dharwad, Karnataka, India  
+              </p>
+            </div>
             <div className="card group">
               <p className="text-neutral-600 whitespace-pre-line">
                 West Coast Optimization Meeting - October 2025 <br />
@@ -99,7 +123,7 @@ const Research: React.FC = () => {
                 </a> <br />
                   <br />
                   
-                University of British Columbia, Okanagan Campus, Kelowna, BC. 
+                University of British Columbia, Okanagan Campus, Kelowna, BC, Canada. 
               </p>
             </div>
             <div className="card group">

@@ -99,18 +99,17 @@ const Miscellaneous: React.FC = () => {
               <div className="border-l-4 border-amber-500 pl-6 py-3 bg-amber-50 rounded-r-2xl shadow-md"> {/* Stronger emphasis, more padding, more rounded */}
                 <h3 className="text-2xl font-semibold text-neutral-800 mb-4">My Philosophical Stance</h3>
                 <p className="text-neutral-700 leading-relaxed mb-5">
-                 I have no qualms in admitting my imperfections and hypocrisies vis a vis my ideals, but I am
-                  ever aware of my fundamental goald, which continually inspires me to grow and change.
+                 I come from a Iyer-Brahmin household and fundametally believe in whatever that entails. I have no qualms in admitting that I am imperfect vis-à-vis my ideals, but I am
+                  ever aware of my fundamental goals, which continually inspires me to grow and change.
                 </p>
                 <p className="text-neutral-700 leading-relaxed mb-5">
-                  While I haven't formally had a guru, my parents and extended family are my greatest role models
-                  and my first gurus, whose wisdom continues to guide me.
+                  My parents and extended family are my greatest role models and my first gurus, whose wisdom continues to guide me.
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
                   Naturally, my ideological views lean unapologetically towards conservatism. However, this conviction
                   is always balanced by a deep respect for the choice and will of individuals above anything else. So, even if you're very dear to me, you're very <em>unlikely</em> to hear my unfiltered opinions.
                   That said, I still believe in thoughtful discourse and the power of well-reasoned arguments to bridge different
-                  perspectives and foster understanding.
+                  perspectives or otherwise, establish the differences in opinions clearly.
                 </p>
               </div>
 
