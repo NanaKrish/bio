@@ -102,7 +102,7 @@ const Home: React.FC = () => {
                 <p className="text-neutral-700 text-sm sm:text-base font-normal">
                   Find a copy of my CV{' '}
                   <a 
-                    href="/bio/NK_CV_full-29-1.pdf" 
+                    href="/bio/NK_CV_full-37.pdf" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
@@ -112,7 +112,7 @@ const Home: React.FC = () => {
                 </p>
                 
                 <p className="text-xs text-neutral-500 pt-1">
-                  Last Updated: January 2026
+                  Last Updated: March 2026
                 </p>
               </div>
             </div>
