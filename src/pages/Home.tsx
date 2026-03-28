@@ -55,7 +55,7 @@ const Home: React.FC = () => {
                     fontWeight: '200', 
                     textShadow: '0 2px 4px rgba(0,0,0,0.3)'
                 }}>
-                  Simon Fraser University, Burnaby, BC, Canada
+                  Next affiliation: University of Southern Denmark, Odense, Denmark
                 </p>
               </div>
             </div>
