@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
         <>
           Graduate Research & Teaching Assistant<br />
           Simon Fraser University<br />
-          September 2023 - Now
+          September 2023 - December 2025
         </>
       )
     },
