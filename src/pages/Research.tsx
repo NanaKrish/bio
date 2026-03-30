@@ -69,18 +69,26 @@ const Research: React.FC = () => {
                     Subhadeep R. Dev, Sanjana Dey, Florent Foucaud, <b>Krishna Narayanan</b> and Lekshmi R S. <a href = "https://doi.org/10.1016/j.dam.2025.08.041" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>Monitoring edge-geodetic sets in graphs.</i></a> <i>Discrete Applied Mathematics</i> 377:598-610, 2025. <i>Special issue for CALDAM 2023. </i>.
                   </p>
                 </div>
+
+                <div className="card group">
+                  <p className="text-neutral-700">
+                    <b>Krishna Narayanan</b> and Tamon Stephen <a href = "https://doi.org/10.1007/978-3-032-17156-6_27" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>The Hardness of Monotone Eccentricity on Polytopes.</i></a> In: Misra, N., Pandey, A. (eds) Algorithms and Discrete Applied Mathematics. CALDAM 2026. Lecture Notes in Computer Science, vol 16445. Springer, Cham.
+                  </p>
+                </div>
               </div>
 
+
               {/* Submitted Sub-section */}
-              <div>
+              {/*<div>
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">Accepted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    <b>Krishna Narayanan</b> and Tamon Stephen <i>--The hardness of monotone eccentricity on polytopes</i> -- <i>To appear in the proceedings of CALDAM 2026</i>.
+                     <i>--The hardness of monotone eccentricity on polytopes</i> -- <i>To appear in the proceedings of CALDAM 2026</i>.
                   </p>
-                </div>
-                {/* Add more submitted papers as needed */}
-              </div>
+                </div> 
+                 
+              </div> */}
+{/* */}
               <div>
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">In Progress</h3>
                 <div className="card group">

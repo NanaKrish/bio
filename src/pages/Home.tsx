@@ -69,7 +69,7 @@ const Home: React.FC = () => {
                   Welcome to my academic portfolio. I recently defended my master's thesis in Mathematics 
                   at Simon Fraser University, Burnaby, BC, Canada under the supervision of 
                   Prof. Tamon Stephen, with a focus on Discrete Optimization. My master's work explores algorithmic questions in polytope theory and their computational complexity. 
-                  Following this, I will start as a PhD student at the University of Southern Denmark's Department of Mathematics and Computer Science under Lars Rohwedder in Fall 2026. 
+                  Following this, I will start as a PhD student at the University of Southern Denmark's Department of Mathematics and Computer Science under Lars Rohwedder in Fall 2026, where I will work under the auspices of his project titled "Parameterized Algorithms and Polyhedra". 
                 </p>
                 
                 <p>
