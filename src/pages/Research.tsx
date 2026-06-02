@@ -78,22 +78,22 @@ const Research: React.FC = () => {
               </div>
 
 
-              {/* Submitted Sub-section */}
-              {/*<div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Accepted</h3>
+              /* Submitted Sub-section */
+              <div>
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                     <i>--The hardness of monotone eccentricity on polytopes</i> -- <i>To appear in the proceedings of CALDAM 2026</i>.
+                     <b>Krishna Narayanan</b> and Tamon Stephen <a href = "https://doi.org/10.48550/arXiv.2605.26505" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>--A note on the exact partition polytope of Frieze and Teng</i></a> -- <i>Under Review at Operations Research Letters</i>.
                   </p>
                 </div> 
                  
-              </div> */}
+              </div> 
 {/* */}
               <div>
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">In Progress</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                    <b>Krishna Narayanan</b> and Tamon Stephen <i>--A note on Frieze-Teng's Exact Partition Polytope</i>.
+                    <b>Krishna Narayanan</b> and Tamon Stephen <i>--On the hardness of monotone eccentricity in polytopes, exact partition and beyond</i>.
                   </p>
                 </div>
                 {/* Add more submitted papers as needed */}

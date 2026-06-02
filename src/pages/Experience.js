@@ -4,7 +4,7 @@ const Experience = () => {
         {
             src: '/bio/SFU.png',
             alt: 'SFU Logo',
-            caption: (_jsxs(_Fragment, { children: ["Graduate Research & Teaching Assistant", _jsx("br", {}), "Simon Fraser University", _jsx("br", {}), "September 2023 - Now"] }))
+            caption: (_jsxs(_Fragment, { children: ["Graduate Research & Teaching Assistant", _jsx("br", {}), "Simon Fraser University", _jsx("br", {}), "September 2023 - December 2025"] }))
         },
         {
             src: '/bio/IMSC.png',
