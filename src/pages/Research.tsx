@@ -78,7 +78,7 @@ const Research: React.FC = () => {
               </div>
 
 
-              /* Submitted Sub-section */
+              {/* Submitted Sub-section */}
               <div>
                 <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
                 <div className="card group">
