@@ -80,10 +80,10 @@ const Research: React.FC = () => {
 
               {/* Submitted Sub-section */}
               <div>
-                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Submitted</h3>
+                <h3 className="text-xl font-semibold text-neutral-800 mb-4">Preprints</h3>
                 <div className="card group">
                   <p className="text-neutral-700">
-                     <b>Krishna Narayanan</b> and Tamon Stephen <a href = "https://doi.org/10.48550/arXiv.2605.26505" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>--A note on the exact partition polytope of Frieze and Teng</i></a> -- <i>Under Review at Operations Research Letters</i>.
+                     <b>Krishna Narayanan</b> and Tamon Stephen <a href = "https://doi.org/10.48550/arXiv.2605.26505" className="text-primary-600 hover:text-primary-700 decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"><i>--A note on the exact partition polytope of Frieze and Teng</i></a>.
                   </p>
                 </div> 
                  
