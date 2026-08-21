@@ -55,7 +55,7 @@ const Home: React.FC = () => {
                     fontWeight: '200', 
                     textShadow: '0 2px 4px rgba(0,0,0,0.3)'
                 }}>
-                  Next affiliation: University of Southern Denmark, Odense, Denmark
+                  Current affiliation: University of Southern Denmark, Odense, Denmark
                 </p>
               </div>
             </div>
@@ -66,14 +66,12 @@ const Home: React.FC = () => {
               {/* Academic Introduction */}
               <div className="prose-enhanced space-y-4 text-sm sm:text-base font-normal text-neutral-700">
                 <p>
-                  Welcome to my academic portfolio. I recently defended my master's thesis in Mathematics 
-                  at Simon Fraser University, Burnaby, BC, Canada under the supervision of 
-                  Prof. Tamon Stephen, with a focus on Discrete Optimization. My master's work explores algorithmic questions in polytope theory and their computational complexity. 
-                  Following this, I will start as a PhD student at the University of Southern Denmark's Department of Mathematics and Computer Science under Lars Rohwedder in Fall 2026, where I will work under the auspices of his project titled "Parameterized Algorithms and Polyhedra". 
+                  Welcome to my academic portfolio. I am currently a PhD Research Fellow, where I am fortunate to be advised by Lars Rohwedder within the Algorithms unit at the Department of Mathematics and Computer Science, University of Southern Denmark in Odense. I recently defended my master's thesis in Mathematics 
+                  at Simon Fraser University, Burnaby, BC, Canada under the supervision of Prof. Tamon Stephen, with a focus on Discrete Optimization. My master's work explores algorithmic questions in polytope theory and their computational complexity. 
                 </p>
                 
                 <p>
-                  Previously, I graduated with an Integrated Master's degree in Theoretical Computer Science 
+                  Before all this, I graduated with an Integrated Master's degree in Theoretical Computer Science 
                   from PSG College of Technology, Coimbatore, India (degree awarded by Anna University, Chennai), 
                   where I worked under the supervision of Prof. Lekshmi R S in the Department of 
                   Applied Mathematics and Computational Sciences.

@@ -145,10 +145,10 @@ const Miscellaneous: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-primary-700 mb-4">Academic Inquiries</h3>
                 <div className="space-y-4 text-neutral-700"> {/* Increased space */}
                   <p>
-                    <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">krishna_narayanan@sfu.ca</a>
+                    <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nanakrish@imada.sdu.dk</a>
                   </p>
                   <p>
-                    <span className="font-medium">Institution:</span> No affiliation (as on 26th January 2026)
+                    <span className="font-medium">Institution:</span> Department of Mathematics and Computer Science, University of Southern Denmark, Odense (as on 21st August 2026)
                   </p>
                 </div>
               </div>
@@ -163,7 +163,7 @@ const Miscellaneous: React.FC = () => {
                     to philosophical perspectives, or just to connect. 
                   </p>
                   <p>
-                    <span className="font-medium">Social Media:</span> You can find me on various platforms, but I prefer to keep any activities minimal.
+                    <span className="font-medium">Social Media:</span> You can find me on a few platforms, but I prefer to keep any activities minimal.
                     If you know me personally, you probably know how to find me on the internet. In any case, it's not worth listing them here.
                   </p>
                 </div>

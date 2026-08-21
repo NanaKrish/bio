@@ -14,8 +14,32 @@ const Education: React.FC = () => {
               {/* Current Master's */}
               <div className="card group">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-                  <h3 className="text-xl font-semibold text-neutral-800">M.Sc (thesis route) in Mathematics</h3>
-                  <span className="text-primary-600 font-medium">2023 - 2025</span>
+                  <h3 className="text-xl font-semibold text-neutral-800">PhD in Computer Science</h3>
+                  <span className="text-primary-600 font-medium">August 2026-</span>
+                </div>
+                <p className="text-neutral-600 mb-3">University of Southern Denmark, Odense</p>
+                <div className="mb-4">
+                  <p className="text-neutral-700">
+                    <span className="font-medium">Supervisor:</span>{' '}
+                    <a 
+                      href="https://larsrohwedder.com/" 
+                      className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200"
+                    >
+                      Prof. Lars Rohwedder
+                    </a>
+                  </p>
+                </div>
+                <p className="text-neutral-700 mb-6"> {/* Added mb-6 for spacing before new section */}
+                  <i>Let's just say something's cooking for now.</i> 
+                </p>
+
+                
+              </div>
+
+              <div className="card group">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                  <h3 className="text-xl font-semibold text-neutral-800">M.Sc (via thesis) in Mathematics</h3>
+                  <span className="text-primary-600 font-medium">September 2023 - December 2025</span>
                 </div>
                 <p className="text-neutral-600 mb-3">Simon Fraser University, Burnaby, BC, Canada</p>
                 <div className="mb-4">
