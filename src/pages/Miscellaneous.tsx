@@ -23,21 +23,21 @@ const Miscellaneous: React.FC = () => {
             {/* Intellectual Passions - Stronger visual separation with two-tone background */}
             <div className="grid md:grid-cols-2 gap-8 mb-12"> {/* Larger gap, more margin */}
               <div className="bg-primary-50 rounded-2xl p-6 border border-primary-200 shadow-lg"> {/* Stronger shadow, more rounded, more padding */}
-                <h3 className="text-2xl font-bold text-primary-800 mb-4">Global & Historical Dynamics</h3> {/* Stronger heading for sub-section */}
+                <h3 className="text-2xl font-bold text-primary-800 mb-4">History and the World</h3> {/* Stronger heading for sub-section */}
                 <p className="text-neutral-700 leading-relaxed mb-4">
                   My curiosity often leads me to delve into topics like Aviation — I'm a bit of an "av-geek" in general, having had the good fortune to travel a fair bit at such a young age.
                   This interest extends to International Affairs and global politics, as well as the fascinating evolution of Military Doctrines and History.
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
-                  These passions were deeply cultivated over almost nine years of participating in Model UN debates, where I had a near-perfect award record during my college days. My debate style evolved considerably during this period, moving from rhetoric to arguments driven by facts and precedence. While powerful, this shift also meant I couldn't always be up to the task with such a demanding approach. These events were pivotal in shaping my understanding of complex global dynamics.
+                  These passions were deeply cultivated over almost nine years of participating in Model UN debates, where I had a near-perfect award placement record during my college days. My debate style evolved considerably during this period, moving from rhetoric to arguments driven by facts and precedence. While powerful, this shift also meant I couldn't always be up to the task with such a demanding approach. These events were pivotal in shaping my understanding of global dynamics, limited as they may be.
                 </p>
               </div>
 
               <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200 shadow-lg"> {/* Different accent color, more rounded, more padding */}
-                <h3 className="text-2xl font-bold text-amber-800 mb-4">Contemporary & Personal Interests</h3> {/* Stronger heading for sub-section */}
+                <h3 className="text-2xl font-bold text-amber-800 mb-4">Other Contemporary Interests</h3> {/* Stronger heading for sub-section */}
                 <p className="text-neutral-700 leading-relaxed mb-4">
-                  I also dedicate time to Environmental Sciences and sustainability, recognizing their critical importance.
-                  Occasionally, I'll deep-dive into the nuances of global economics and market dynamics, appreciating their interconnectedness.
+                  I also dedicate time to Environmental Sciences and sustainability, recognizing their importance. In particular, I take an ardent interest in the climate and ecology of Peninsular India. This was driven initially by curiousity about the Southwest Monsoon and associated phenomena, the importance of this in not only the life and livelihoods of the people of the regions I am native to and grew up in, but also how it shapes the socio-political narratives in these regions. 
+                  Occasionally, I'll deep-dive into the nuances of global economics and market dynamics, appreciating their interconnectedness. I wouldn't call myself anything more than amateur though. 
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
                   My interest in reading doesn't always live up to my ambitious bucket list, but I genuinely try to make an effort where and when I can.
@@ -52,7 +52,7 @@ const Miscellaneous: React.FC = () => {
                   For recreation, I enjoy the intellectual sparring of rapid and blitz chess on chess.com,
                   though I must admit I'm no grandmaster; far from it! I used to be something of an athlete, even a competitive swimmer in my younger days,
                   but now, my physical routine is less about competition and more about maintaining regular fitness and workout routines &mdash; definitely no bodybuilder aspirations here!
-                  My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
+                  My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match. 
                 </p>
                 <p className="text-neutral-700 leading-relaxed mb-5">
                   I also enjoy driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
@@ -78,7 +78,7 @@ const Miscellaneous: React.FC = () => {
                     Shounen anime and manga
                   </li>
                   <li>
-                    Interviews, podcasts and everything else
+                    Interviews and Podcasts; generally long form conversations which do more than the average reel. 
                   </li>
                 </ul>
               </div>
@@ -114,7 +114,7 @@ const Miscellaneous: React.FC = () => {
               </div>
 
               <div>
-                <h3 className="text-2xl font-semibold text-neutral-800 mb-5 pb-3 border-b border-neutral-300">Writing & Communication</h3>
+                <h3 className="text-2xl font-semibold text-neutral-800 mb-5 pb-3 border-b border-neutral-300">Other interests, and a little bit of who I really am</h3>
                 <p className="text-neutral-700 leading-relaxed mb-5">
                   In the past, I had the good fortune to write from time to time on a wide variety of topics and
                   engage with some wonderful people. You can find my contributions to PSG Tech's online student
@@ -129,9 +129,8 @@ const Miscellaneous: React.FC = () => {
                   </a>.
                 </p>
                 <p className="text-neutral-700 leading-relaxed">
-                  I consider myself rather indolent, thus reserving my very best for when I am backed into a corner,
-                  as a matter of saying. This approach, while perhaps unconventional and self-damaging, has often yielded my most focused
-                  and creative work. Rest assured however, that I am stubborn enough to stick it out until I've taken an objective to its logical conclusion, no matter the cost. 
+                  I consider myself rather indolent, thus reserving my very best for when I am backed into a corner, so to speak. This approach, while perhaps unconventional and self-damaging, has often yielded my most focused
+                  and creative work. Rest assured, however, that I am bone-headed enough to stick it out until I've taken an objective to its logical conclusion, no matter the cost. 
                 </p>
               </div>
             </div>
