@@ -55,7 +55,7 @@ const Miscellaneous: React.FC = () => {
                   My interest in cricket, while once strong, is also fading fast, but I can still appreciate a good match.
                 </p>
                 <p className="text-neutral-700 leading-relaxed mb-5">
-                  I also love driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
+                  I also enjoy driving, especially on the more unpredictable Indian roads and highways. Driving overseas, where people follow rules to the T, can sometimes leave me feeling bored, and perhaps even sleepy, given my native driving experiences.
                 </p>
                 <p className="text-neutral-700 leading-relaxed text-base italic text-neutral-600 border-t pt-4 mt-6 border-neutral-200"> {/* Subtle top border, more padding */}
                   Above all, I am a creature of habit. I value routines and find comfort in their predictability, extending even to my food choices.
@@ -131,7 +131,7 @@ const Miscellaneous: React.FC = () => {
                 <p className="text-neutral-700 leading-relaxed">
                   I consider myself rather indolent, thus reserving my very best for when I am backed into a corner,
                   as a matter of saying. This approach, while perhaps unconventional and self-damaging, has often yielded my most focused
-                  and creative work.
+                  and creative work. Rest assured however, that I am stubborn enough to stick it out until I've taken an objective to its logical conclusion, no matter the cost. 
                 </p>
               </div>
             </div>
@@ -145,7 +145,7 @@ const Miscellaneous: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-primary-700 mb-4">Academic Inquiries</h3>
                 <div className="space-y-4 text-neutral-700"> {/* Increased space */}
                   <p>
-                    <span className="font-medium">Email:</span> <a href="mailto:krishna_narayanan@sfu.ca" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nanakrish@imada.sdu.dk</a>
+                    <span className="font-medium">Email:</span> <a href="mailto:nanakrish@imada.sdu.dk" className="text-primary-600 hover:text-primary-700 underline decoration-primary-300 hover:decoration-primary-500 transition-colors duration-200">nanakrish@imada.sdu.dk</a>
                   </p>
                   <p>
                     <span className="font-medium">Institution:</span> Department of Mathematics and Computer Science, University of Southern Denmark, Odense (as on 21st August 2026)
